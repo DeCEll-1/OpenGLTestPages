@@ -11,215 +11,220 @@
 		<meta property="og:url" content="api/rendering/geometries/cylinder.html">
 		<meta property="og:image" content="undefined">
 		<meta property="og:site_name" content="Obsidian Vault">
-		<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.4.0/pixi.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript></head><body class="publish css-settings-manager theme-dark show-inline-title show-ribbon"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="Cylinder">Cylinder</h1><div class="el-p"><p dir="auto">using OpenglTestConsole.Classes.API.Misc;<br>
-using OpenglTestConsole.Classes.API.Rendering.MeshClasses;<br>
-using OpenTK.Mathematics;</p></div><div class="el-p"><p dir="auto">namespace OpenglTestConsole.Classes.API.Rendering.Geometries<br>
-{<br>
-public class Cylinder : Geometry3D<br>
-{<br>
-private int StackCount;<br>
-private int SectorCount;<br>
-private float Height;<br>
-private float Radius;</p></div><div class="el-pre"><pre><code data-line="0">    // its not that hard to draw a FUCKİNG CYLİNDER
-    // YOU NEED TO DRAW A CİRCLE
-    // sin cos gives dot from angle
-    // then you star from angle 0, then increase it by 360/sector count
+		<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.4.0/pixi.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript></head><body class="publish css-settings-manager theme-dark show-inline-title show-ribbon"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="Cylinder">Cylinder</h1><div class="el-pre"><pre class="language-cs" tabindex="0"><code data-line="0" class="language-cs is-loaded"><span class="token keyword">using</span> <span class="token namespace">OpenglTestConsole<span class="token punctuation">.</span>Classes<span class="token punctuation">.</span>API<span class="token punctuation">.</span>Misc</span><span class="token punctuation">;</span>
+<span class="token keyword">using</span> <span class="token namespace">OpenglTestConsole<span class="token punctuation">.</span>Classes<span class="token punctuation">.</span>API<span class="token punctuation">.</span>Rendering<span class="token punctuation">.</span>MeshClasses</span><span class="token punctuation">;</span>
+<span class="token keyword">using</span> <span class="token namespace">OpenTK<span class="token punctuation">.</span>Mathematics</span><span class="token punctuation">;</span>
 
-    public Cylinder(int StackCount, int SectorCount, float Height, float Radius)
-    {
-        this.StackCount = StackCount;
-        this.SectorCount = SectorCount;
-        this.Height = Height;
-        this.Radius = Radius;
-        Init();
-    }
+<span class="token keyword">namespace</span> <span class="token namespace">OpenglTestConsole<span class="token punctuation">.</span>Classes<span class="token punctuation">.</span>API<span class="token punctuation">.</span>Rendering<span class="token punctuation">.</span>Geometries</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Cylinder</span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">Geometry3D</span></span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword">private</span> <span class="token class-name"><span class="token keyword">int</span></span> StackCount<span class="token punctuation">;</span>
+        <span class="token keyword">private</span> <span class="token class-name"><span class="token keyword">int</span></span> SectorCount<span class="token punctuation">;</span>
+        <span class="token keyword">private</span> <span class="token class-name"><span class="token keyword">float</span></span> Height<span class="token punctuation">;</span>
+        <span class="token keyword">private</span> <span class="token class-name"><span class="token keyword">float</span></span> Radius<span class="token punctuation">;</span>
 
-    private void Init()
-    {
-        (this.Vertices, this.Normals, this.TexCoords, this.Indices) = GetCylinder();
-    }
+        <span class="token comment">// its not that hard to draw a FUCKİNG CYLİNDER</span>
+        <span class="token comment">// YOU NEED TO DRAW A CİRCLE</span>
+        <span class="token comment">// sin cos gives dot from angle</span>
+        <span class="token comment">// then you star from angle 0, then increase it by 360/sector count</span>
 
-    public override void Apply(BufferManager BufferManager)
-    {
-        BufferManager.SetVector3(Vertices, 0);
-        BufferManager.SetVector3(Normals, 1);
-        BufferManager.SetVector2(TexCoords, 2);
-        BufferManager.SetIndices(Indices);
-    }
+        <span class="token keyword">public</span> <span class="token function">Cylinder</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> StackCount<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> SectorCount<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">float</span></span> Height<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">float</span></span> Radius<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span>StackCount <span class="token operator">=</span> StackCount<span class="token punctuation">;</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span>SectorCount <span class="token operator">=</span> SectorCount<span class="token punctuation">;</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span>Height <span class="token operator">=</span> Height<span class="token punctuation">;</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span>Radius <span class="token operator">=</span> Radius<span class="token punctuation">;</span>
+            <span class="token function">Init</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
 
-    private (
-        Vector3[] vertices,
-        Vector3[] normals,
-        Vector2[] texCoords,
-        uint[] indices
-    ) GetCylinder()
-    {
-        List&lt;Vector3&gt; unitVertices = GetUnitVertices(SectorCount);
+        <span class="token keyword">private</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Init</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>Vertices<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>Normals<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>TexCoords<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>Indices<span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token function">GetCylinder</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
 
-        List&lt;Vector3&gt; vertices = new();
-        List&lt;Vector3&gt; normals = new();
-        List&lt;Vector2&gt; texCoords = new();
+        <span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Apply</span><span class="token punctuation">(</span><span class="token class-name">BufferManager</span> BufferManager<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            BufferManager<span class="token punctuation">.</span><span class="token function">SetVector3</span><span class="token punctuation">(</span>Vertices<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            BufferManager<span class="token punctuation">.</span><span class="token function">SetVector3</span><span class="token punctuation">(</span>Normals<span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            BufferManager<span class="token punctuation">.</span><span class="token function">SetVector2</span><span class="token punctuation">(</span>TexCoords<span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            BufferManager<span class="token punctuation">.</span><span class="token function">SetIndices</span><span class="token punctuation">(</span>Indices<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
 
-        // put side vertices to arrays
-        for (int i = 0; i &lt;= StackCount; i++)
-        {
-            float stackStep = Height / StackCount;
-            float h = -Height / 2.0f + i * stackStep;
-            // t goes from 1.0 down to 0.0 as i goes from 0 to StackCount
-            float t = 1.0f - (float)i / StackCount;
+        <span class="token keyword">private</span> <span class="token return-type class-name"><span class="token punctuation">(</span>
+            Vector3<span class="token punctuation">[</span><span class="token punctuation">]</span> vertices<span class="token punctuation">,</span>
+            Vector3<span class="token punctuation">[</span><span class="token punctuation">]</span> normals<span class="token punctuation">,</span>
+            Vector2<span class="token punctuation">[</span><span class="token punctuation">]</span> texCoords<span class="token punctuation">,</span>
+            <span class="token keyword">uint</span><span class="token punctuation">[</span><span class="token punctuation">]</span> indices
+        <span class="token punctuation">)</span></span> <span class="token function">GetCylinder</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token class-name">List<span class="token punctuation">&lt;</span>Vector3<span class="token punctuation">&gt;</span></span> unitVertices <span class="token operator">=</span> <span class="token function">GetUnitVertices</span><span class="token punctuation">(</span>SectorCount<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-            for (int j = 0; j &lt; SectorCount; j++)
-            {
-                Vector3 unit = unitVertices[j];
+            <span class="token class-name">List<span class="token punctuation">&lt;</span>Vector3<span class="token punctuation">&gt;</span></span> vertices <span class="token operator">=</span> <span class="token keyword">new</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token class-name">List<span class="token punctuation">&lt;</span>Vector3<span class="token punctuation">&gt;</span></span> normals <span class="token operator">=</span> <span class="token keyword">new</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token class-name">List<span class="token punctuation">&lt;</span>Vector2<span class="token punctuation">&gt;</span></span> texCoords <span class="token operator">=</span> <span class="token keyword">new</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-                vertices.Add(
-                    new(
-                        unit.X * Radius, // vx
-                        unit.Y * Radius, // vy
-                        h // vz
-                    )
-                );
+            <span class="token comment">// put side vertices to arrays</span>
+            <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> StackCount<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>
+            <span class="token punctuation">{</span>
+                <span class="token class-name"><span class="token keyword">float</span></span> stackStep <span class="token operator">=</span> Height <span class="token operator">/</span> StackCount<span class="token punctuation">;</span>
+                <span class="token class-name"><span class="token keyword">float</span></span> h <span class="token operator">=</span> <span class="token operator">-</span>Height <span class="token operator">/</span> <span class="token number">2.0f</span> <span class="token operator">+</span> i <span class="token operator">*</span> stackStep<span class="token punctuation">;</span>
+                <span class="token comment">// t goes from 1.0 down to 0.0 as i goes from 0 to StackCount</span>
+                <span class="token class-name"><span class="token keyword">float</span></span> t <span class="token operator">=</span> <span class="token number">1.0f</span> <span class="token operator">-</span> <span class="token punctuation">(</span><span class="token keyword">float</span><span class="token punctuation">)</span>i <span class="token operator">/</span> StackCount<span class="token punctuation">;</span>
 
-                // normal vector
-                normals.Add(
-                    new(
-                        unit.X, // nx
-                        unit.Y, // ny
-                        unit.Z // nz
-                    )
-                );
+                <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> SectorCount<span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span>
+                <span class="token punctuation">{</span>
+                    <span class="token class-name">Vector3</span> unit <span class="token operator">=</span> unitVertices<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">;</span>
 
-                // texture coordinate
-                texCoords.Add(
-                    new(
-                        (float)(j / (float)SectorCount), // s
-                        t // t
-                    )
-                );
-            }
-        }
+                    vertices<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>
+                        <span class="token keyword">new</span><span class="token punctuation">(</span>
+                            unit<span class="token punctuation">.</span>X <span class="token operator">*</span> Radius<span class="token punctuation">,</span> <span class="token comment">// vx</span>
+                            unit<span class="token punctuation">.</span>Y <span class="token operator">*</span> Radius<span class="token punctuation">,</span> <span class="token comment">// vy</span>
+                            h <span class="token comment">// vz</span>
+                        <span class="token punctuation">)</span>
+                    <span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-        #region top and bottom vertices
-        // bottom Center point
-        float lidHeight = -(Height / 2f);
-        float nz = -1;
-        vertices.Add(new Vector3(0, 0, lidHeight));
-        normals.Add(new Vector3(0, 0, nz));
-        texCoords.Add(new Vector2(0.5f, 0.5f));
+                    <span class="token comment">// normal vector</span>
+                    normals<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>
+                        <span class="token keyword">new</span><span class="token punctuation">(</span>
+                            unit<span class="token punctuation">.</span>X<span class="token punctuation">,</span> <span class="token comment">// nx</span>
+                            unit<span class="token punctuation">.</span>Y<span class="token punctuation">,</span> <span class="token comment">// ny</span>
+                            unit<span class="token punctuation">.</span>Z <span class="token comment">// nz</span>
+                        <span class="token punctuation">)</span>
+                    <span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-        // top center point
-        lidHeight = Height / 2f;
-        nz = -1;
-        vertices.Add(new Vector3(0, 0, lidHeight));
-        normals.Add(new Vector3(0, 0, nz));
-        texCoords.Add(new Vector2(0.5f, 0.5f));
-        #endregion
+                    <span class="token comment">// texture coordinate</span>
+                    texCoords<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>
+                        <span class="token keyword">new</span><span class="token punctuation">(</span>
+                            <span class="token punctuation">(</span><span class="token keyword">float</span><span class="token punctuation">)</span><span class="token punctuation">(</span>j <span class="token operator">/</span> <span class="token punctuation">(</span><span class="token keyword">float</span><span class="token punctuation">)</span>SectorCount<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token comment">// s</span>
+                            t <span class="token comment">// t</span>
+                        <span class="token punctuation">)</span>
+                    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
 
-        List&lt;uint&gt; indices = new List&lt;uint&gt;();
-        uint uintSectorCount = Convert.ToUInt32(SectorCount);
-        uint uintStackCount = Convert.ToUInt32(StackCount);
+            <span class="token preprocessor property">#<span class="token directive keyword">region</span> top and bottom vertices</span>
+            <span class="token comment">// bottom Center point</span>
+            <span class="token class-name"><span class="token keyword">float</span></span> lidHeight <span class="token operator">=</span> <span class="token operator">-</span><span class="token punctuation">(</span>Height <span class="token operator">/</span> <span class="token number">2f</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token class-name"><span class="token keyword">float</span></span> nz <span class="token operator">=</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+            vertices<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token constructor-invocation class-name">Vector3</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> lidHeight<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            normals<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token constructor-invocation class-name">Vector3</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> nz<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            texCoords<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token constructor-invocation class-name">Vector2</span><span class="token punctuation">(</span><span class="token number">0.5f</span><span class="token punctuation">,</span> <span class="token number">0.5f</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-        #region side indices
+            <span class="token comment">// top center point</span>
+            lidHeight <span class="token operator">=</span> Height <span class="token operator">/</span> <span class="token number">2f</span><span class="token punctuation">;</span>
+            nz <span class="token operator">=</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+            vertices<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token constructor-invocation class-name">Vector3</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> lidHeight<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            normals<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token constructor-invocation class-name">Vector3</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> nz<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            texCoords<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token constructor-invocation class-name">Vector2</span><span class="token punctuation">(</span><span class="token number">0.5f</span><span class="token punctuation">,</span> <span class="token number">0.5f</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token preprocessor property">#<span class="token directive keyword">endregion</span></span>
 
-        for (uint i = 0; i &lt; StackCount; ++i)
-        {
-            uint k1 = i * uintSectorCount; // beginning of current stack
-            uint k2 = k1 + uintSectorCount; // beginning of next stack
+            <span class="token class-name">List<span class="token punctuation">&lt;</span><span class="token keyword">uint</span><span class="token punctuation">&gt;</span></span> indices <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token constructor-invocation class-name">List<span class="token punctuation">&lt;</span><span class="token keyword">uint</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token class-name"><span class="token keyword">uint</span></span> uintSectorCount <span class="token operator">=</span> Convert<span class="token punctuation">.</span><span class="token function">ToUInt32</span><span class="token punctuation">(</span>SectorCount<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token class-name"><span class="token keyword">uint</span></span> uintStackCount <span class="token operator">=</span> Convert<span class="token punctuation">.</span><span class="token function">ToUInt32</span><span class="token punctuation">(</span>StackCount<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-            for (int j = 0; j &lt; SectorCount; j++, ++k1, ++k2)
-            {
-                // First triangle of quad
-                indices.Add(k1);
-                indices.Add(k1 + 1);
-                indices.Add(k2);
+            <span class="token preprocessor property">#<span class="token directive keyword">region</span> side indices</span>
 
-                // 0 2 5
-                // Second triangle of quad
-                if (j + 1 != SectorCount)
-                { // normal stuff
-                    indices.Add(k2); // 5
-                    indices.Add(k1 + 1); // 3
-                    indices.Add(k2 + 1); // 6
-                }
-                else
-                { // we need 3 0 and 2
-                    indices.Add(k1); // 2
-                    indices.Add(uintSectorCount * i); // 0
-                    indices.Add(k1 + 1); // 3
-                    //indices.Add(Math.Min(k1 - uintSectorCount, 0));
-                    //indices.Add((uintSectorCount * i));
-                }
-            }
-        }
+            <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">uint</span></span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> StackCount<span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span>
+            <span class="token punctuation">{</span>
+                <span class="token class-name"><span class="token keyword">uint</span></span> k1 <span class="token operator">=</span> i <span class="token operator">*</span> uintSectorCount<span class="token punctuation">;</span> <span class="token comment">// beginning of current stack</span>
+                <span class="token class-name"><span class="token keyword">uint</span></span> k2 <span class="token operator">=</span> k1 <span class="token operator">+</span> uintSectorCount<span class="token punctuation">;</span> <span class="token comment">// beginning of next stack</span>
 
-        #endregion
+                <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> SectorCount<span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">,</span> <span class="token operator">++</span>k1<span class="token punctuation">,</span> <span class="token operator">++</span>k2<span class="token punctuation">)</span>
+                <span class="token punctuation">{</span>
+                    <span class="token comment">// First triangle of quad</span>
+                    indices<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>k1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    indices<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>k1 <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    indices<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>k2<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-        #region top and bottom indices
+                    <span class="token comment">// 0 2 5</span>
+                    <span class="token comment">// Second triangle of quad</span>
+                    <span class="token keyword">if</span> <span class="token punctuation">(</span>j <span class="token operator">+</span> <span class="token number">1</span> <span class="token operator">!=</span> SectorCount<span class="token punctuation">)</span>
+                    <span class="token punctuation">{</span> <span class="token comment">// normal stuff</span>
+                        indices<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>k2<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 5</span>
+                        indices<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>k1 <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 3</span>
+                        indices<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>k2 <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 6</span>
+                    <span class="token punctuation">}</span>
+                    <span class="token keyword">else</span>
+                    <span class="token punctuation">{</span> <span class="token comment">// we need 3 0 and 2</span>
+                        indices<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>k1<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 2</span>
+                        indices<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>uintSectorCount <span class="token operator">*</span> i<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 0</span>
+                        indices<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>k1 <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 3</span>
+                        <span class="token comment">//indices.Add(Math.Min(k1 - uintSectorCount, 0));</span>
+                        <span class="token comment">//indices.Add((uintSectorCount * i));</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
 
-        #region top
+            <span class="token preprocessor property">#<span class="token directive keyword">endregion</span></span>
 
-        uint bottomIndex = (uint)(vertices.Count - 2); // bottom center point
-        uint bottomK1 = 0;
-        uint bottomK2 = 1;
+            <span class="token preprocessor property">#<span class="token directive keyword">region</span> top and bottom indices</span>
 
-        for (int j = 0; j &lt; SectorCount; j++, bottomK1++, bottomK2++)
-        {
-            // First triangle
-            // 3 is the next stacks starting index, which is the number of sectors we have
-            // so it not being 3 means we are in the same stack
-            if (bottomK2 != SectorCount)
-                indices.Add(bottomK2);
-            else
-                indices.Add(bottomK2 - uintSectorCount); // 0
-            indices.Add(bottomK1);
-            indices.Add(bottomIndex); // center point
-        }
+            <span class="token preprocessor property">#<span class="token directive keyword">region</span> top</span>
 
-        #endregion
+            <span class="token class-name"><span class="token keyword">uint</span></span> bottomIndex <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">uint</span><span class="token punctuation">)</span><span class="token punctuation">(</span>vertices<span class="token punctuation">.</span>Count <span class="token operator">-</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// bottom center point</span>
+            <span class="token class-name"><span class="token keyword">uint</span></span> bottomK1 <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+            <span class="token class-name"><span class="token keyword">uint</span></span> bottomK2 <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
 
-        #region bottom
+            <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> SectorCount<span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">,</span> bottomK1<span class="token operator">++</span><span class="token punctuation">,</span> bottomK2<span class="token operator">++</span><span class="token punctuation">)</span>
+            <span class="token punctuation">{</span>
+                <span class="token comment">// First triangle</span>
+                <span class="token comment">// 3 is the next stacks starting index, which is the number of sectors we have</span>
+                <span class="token comment">// so it not being 3 means we are in the same stack</span>
+                <span class="token keyword">if</span> <span class="token punctuation">(</span>bottomK2 <span class="token operator">!=</span> SectorCount<span class="token punctuation">)</span>
+                    indices<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>bottomK2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword">else</span>
+                    indices<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>bottomK2 <span class="token operator">-</span> uintSectorCount<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 0</span>
+                indices<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>bottomK1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                indices<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>bottomIndex<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// center point</span>
+            <span class="token punctuation">}</span>
 
-        uint topIndex = (uint)(vertices.Count - 1); // top center point
-        uint topK1 = uintSectorCount * uintStackCount; // beginning of current stack
-        uint topK2 = topK1 + 1; // beginning of next stack
+            <span class="token preprocessor property">#<span class="token directive keyword">endregion</span></span>
 
-        for (int j = 0; j &lt; SectorCount; j++, topK1++, topK2++)
-        {
-            // First triangle of quad
-            indices.Add(topIndex); // center point
-            indices.Add(topK1);
-            // 3 is the next stacks starting index, which is the number of sectors we have
-            // so it not being 3 means we are in the same stack
-            if (topK2 != vertices.Count - 2)
-                indices.Add(topK2);
-            else
-                indices.Add(uintSectorCount * uintStackCount); // 0
-        }
+            <span class="token preprocessor property">#<span class="token directive keyword">region</span> bottom</span>
 
-        #endregion
+            <span class="token class-name"><span class="token keyword">uint</span></span> topIndex <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">uint</span><span class="token punctuation">)</span><span class="token punctuation">(</span>vertices<span class="token punctuation">.</span>Count <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// top center point</span>
+            <span class="token class-name"><span class="token keyword">uint</span></span> topK1 <span class="token operator">=</span> uintSectorCount <span class="token operator">*</span> uintStackCount<span class="token punctuation">;</span> <span class="token comment">// beginning of current stack</span>
+            <span class="token class-name"><span class="token keyword">uint</span></span> topK2 <span class="token operator">=</span> topK1 <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span> <span class="token comment">// beginning of next stack</span>
 
-        #endregion
+            <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> SectorCount<span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">,</span> topK1<span class="token operator">++</span><span class="token punctuation">,</span> topK2<span class="token operator">++</span><span class="token punctuation">)</span>
+            <span class="token punctuation">{</span>
+                <span class="token comment">// First triangle of quad</span>
+                indices<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>topIndex<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// center point</span>
+                indices<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>topK1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token comment">// 3 is the next stacks starting index, which is the number of sectors we have</span>
+                <span class="token comment">// so it not being 3 means we are in the same stack</span>
+                <span class="token keyword">if</span> <span class="token punctuation">(</span>topK2 <span class="token operator">!=</span> vertices<span class="token punctuation">.</span>Count <span class="token operator">-</span> <span class="token number">2</span><span class="token punctuation">)</span>
+                    indices<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>topK2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword">else</span>
+                    indices<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>uintSectorCount <span class="token operator">*</span> uintStackCount<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 0</span>
+            <span class="token punctuation">}</span>
 
-        return (vertices.ToArray(), normals.ToArray(), texCoords.ToArray(), indices.ToArray());
-    }
+            <span class="token preprocessor property">#<span class="token directive keyword">endregion</span></span>
 
-    private List&lt;Vector3&gt; GetUnitVertices(int sectorCount)
-    {
-        List&lt;Vector3&gt; unitVertices = new();
-        for (int i = 0; i &lt; sectorCount; i++)
-        {
-            float currentAngle = i * (360f / sectorCount); // current angle in degrees
+            <span class="token preprocessor property">#<span class="token directive keyword">endregion</span></span>
 
-            float x = MathMisc.Cosf(currentAngle);
-            float y = MathMisc.Sinf(currentAngle);
+            <span class="token keyword">return</span> <span class="token punctuation">(</span>vertices<span class="token punctuation">.</span><span class="token function">ToArray</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> normals<span class="token punctuation">.</span><span class="token function">ToArray</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> texCoords<span class="token punctuation">.</span><span class="token function">ToArray</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> indices<span class="token punctuation">.</span><span class="token function">ToArray</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
 
-            unitVertices.Add(new(x, y, 0));
-        }
+        <span class="token keyword">private</span> <span class="token return-type class-name">List<span class="token punctuation">&lt;</span>Vector3<span class="token punctuation">&gt;</span></span> <span class="token function">GetUnitVertices</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> sectorCount<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token class-name">List<span class="token punctuation">&lt;</span>Vector3<span class="token punctuation">&gt;</span></span> unitVertices <span class="token operator">=</span> <span class="token keyword">new</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> sectorCount<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>
+            <span class="token punctuation">{</span>
+                <span class="token class-name"><span class="token keyword">float</span></span> currentAngle <span class="token operator">=</span> i <span class="token operator">*</span> <span class="token punctuation">(</span><span class="token number">360f</span> <span class="token operator">/</span> sectorCount<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// current angle in degrees</span>
 
-        return unitVertices;
-    }
-}
-</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-p"><p dir="auto">}</p></div><div class="mod-footer mod-ui"></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+                <span class="token class-name"><span class="token keyword">float</span></span> x <span class="token operator">=</span> MathMisc<span class="token punctuation">.</span><span class="token function">Cosf</span><span class="token punctuation">(</span>currentAngle<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token class-name"><span class="token keyword">float</span></span> y <span class="token operator">=</span> MathMisc<span class="token punctuation">.</span><span class="token function">Sinf</span><span class="token punctuation">(</span>currentAngle<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+                unitVertices<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span><span class="token keyword">new</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> y<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+
+            <span class="token keyword">return</span> unitVertices<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="mod-footer mod-ui"></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
 		<div class="graph-view-container">
 			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
 			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>

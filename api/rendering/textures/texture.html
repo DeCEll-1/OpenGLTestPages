@@ -11,323 +11,328 @@
 		<meta property="og:url" content="api/rendering/textures/texture.html">
 		<meta property="og:image" content="undefined">
 		<meta property="og:site_name" content="Obsidian Vault">
-		<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.4.0/pixi.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript></head><body class="publish css-settings-manager theme-dark show-inline-title show-ribbon"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="Texture">Texture</h1><div class="el-p"><p dir="auto">using OpenglTestConsole.Classes.API.Misc;<br>
-using OpenTK.Audio.OpenAL;<br>
-using OpenTK.Mathematics;<br>
-using SixLabors.ImageSharp;<br>
-using SixLabors.ImageSharp.PixelFormats;<br>
-using SixLabors.ImageSharp.Processing;<br>
-using System.IO;<br>
-using static OpenglTestConsole.Generated.Paths.ResourcePaths.Materials;</p></div><div class="el-p"><p dir="auto">namespace OpenglTestConsole.Classes.API.Rendering.Textures<br>
-{<br>
-public class Texture : IDisposable<br>
-{<br>
-public int Handle { get; set; }<br>
-public bool initalised = false;<br>
-public int width, height;<br>
-public bool disposed { get; private set; } = false;</p></div><div class="el-pre"><pre><code data-line="0">    #region creation
-    public TextureTarget Target { get; set; }
-    public PixelInternalFormat PixelInternalFormat { get; set; }
-    public PixelFormat PixelFormat { get; set; }
-    public PixelType PixelType { get; set; }
-    public TextureWrapMode TextureSWrapMode { get; set; }
-    public TextureWrapMode TextureTWrapMode { get; set; }
-    private byte[] bytes { get; set; }
-    public bool flipped = true;
-    public Texture() { }
+		<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.4.0/pixi.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript></head><body class="publish css-settings-manager theme-dark show-inline-title show-ribbon"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="Texture">Texture</h1><div class="el-pre"><pre class="language-cs" tabindex="0"><code data-line="0" class="language-cs is-loaded"><span class="token keyword">using</span> <span class="token namespace">OpenglTestConsole<span class="token punctuation">.</span>Classes<span class="token punctuation">.</span>API<span class="token punctuation">.</span>Misc</span><span class="token punctuation">;</span>
+<span class="token keyword">using</span> <span class="token namespace">OpenTK<span class="token punctuation">.</span>Audio<span class="token punctuation">.</span>OpenAL</span><span class="token punctuation">;</span>
+<span class="token keyword">using</span> <span class="token namespace">OpenTK<span class="token punctuation">.</span>Mathematics</span><span class="token punctuation">;</span>
+<span class="token keyword">using</span> <span class="token namespace">SixLabors<span class="token punctuation">.</span>ImageSharp</span><span class="token punctuation">;</span>
+<span class="token keyword">using</span> <span class="token namespace">SixLabors<span class="token punctuation">.</span>ImageSharp<span class="token punctuation">.</span>PixelFormats</span><span class="token punctuation">;</span>
+<span class="token keyword">using</span> <span class="token namespace">SixLabors<span class="token punctuation">.</span>ImageSharp<span class="token punctuation">.</span>Processing</span><span class="token punctuation">;</span>
+<span class="token keyword">using</span> <span class="token namespace">System<span class="token punctuation">.</span>IO</span><span class="token punctuation">;</span>
+<span class="token keyword">using</span> <span class="token keyword">static</span> <span class="token class-name">OpenglTestConsole<span class="token punctuation">.</span>Generated<span class="token punctuation">.</span>Paths<span class="token punctuation">.</span>ResourcePaths<span class="token punctuation">.</span>Materials</span><span class="token punctuation">;</span>
 
-    public static Texture LoadFromFile(
-        string path,
-        TextureTarget target = TextureTarget.Texture2D,
-        PixelInternalFormat pixelInternalFormat = PixelInternalFormat.Rgba,
-        PixelFormat pixelFormat = PixelFormat.Rgba,
-        PixelType type = PixelType.UnsignedByte,
-        TextureWrapMode textureSWrapMode = TextureWrapMode.Repeat,
-        TextureWrapMode textureTWrapMode = TextureWrapMode.Repeat
-    ) =&gt; LoadFromTextureBytes(
-             File.ReadAllBytes(path),
-             target: target,
-             pixelInternalFormat: pixelInternalFormat,
-             pixelFormat: pixelFormat,
-             type: type,
-             textureSWrapMode: textureSWrapMode,
-             textureTWrapMode: textureTWrapMode
-        );
+<span class="token keyword">namespace</span> <span class="token namespace">OpenglTestConsole<span class="token punctuation">.</span>Classes<span class="token punctuation">.</span>API<span class="token punctuation">.</span>Rendering<span class="token punctuation">.</span>Textures</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Texture</span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">IDisposable</span></span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> Handle <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+        <span class="token keyword">public</span> <span class="token class-name"><span class="token keyword">bool</span></span> initalised <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+        <span class="token keyword">public</span> <span class="token class-name"><span class="token keyword">int</span></span> width<span class="token punctuation">,</span> height<span class="token punctuation">;</span>
+        <span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> disposed <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">private</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
 
+        <span class="token preprocessor property">#<span class="token directive keyword">region</span> creation</span>
+        <span class="token keyword">public</span> <span class="token return-type class-name">TextureTarget</span> Target <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+        <span class="token keyword">public</span> <span class="token return-type class-name">PixelInternalFormat</span> PixelInternalFormat <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+        <span class="token keyword">public</span> <span class="token return-type class-name">PixelFormat</span> PixelFormat <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+        <span class="token keyword">public</span> <span class="token return-type class-name">PixelType</span> PixelType <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+        <span class="token keyword">public</span> <span class="token return-type class-name">TextureWrapMode</span> TextureSWrapMode <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+        <span class="token keyword">public</span> <span class="token return-type class-name">TextureWrapMode</span> TextureTWrapMode <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+        <span class="token keyword">private</span> <span class="token return-type class-name"><span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> bytes <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+        <span class="token keyword">public</span> <span class="token class-name"><span class="token keyword">bool</span></span> flipped <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+        <span class="token keyword">public</span> <span class="token function">Texture</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token punctuation">}</span>
 
-    public static Texture LoadFromTextureBytes(
-        byte[] bytes,
-        TextureTarget target = TextureTarget.Texture2D,
-        PixelInternalFormat pixelInternalFormat = PixelInternalFormat.Rgba,
-        PixelFormat pixelFormat = PixelFormat.Rgba,
-        PixelType type = PixelType.UnsignedByte,
-        TextureWrapMode textureSWrapMode = TextureWrapMode.Repeat,
-        TextureWrapMode textureTWrapMode = TextureWrapMode.Repeat
-    )
-    {
-
-        Image&lt;Rgba32&gt; image;
-
-        try
-        {
-            image = Image.Load&lt;Rgba32&gt;(bytes);
-        }
-        catch (Exception ex)
-        {
-            Logger.Log(
-                $"An error occured while loading {LogColors.BrightWhite("LoadFromTextureBytes")}:\n{ex.ToString()}",
-                LogLevel.Error
-            );
-            // this aint working properly fix it sometime ig
-            Logger.Log($"Using default texture...", LogLevel.Warning);
-            image = Image.Load&lt;Rgba32&gt;(File.ReadAllBytes("Resources/Textures/PlaceHolder.png"));
-        }
+        <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token return-type class-name">Texture</span> <span class="token function">LoadFromFile</span><span class="token punctuation">(</span>
+            <span class="token class-name"><span class="token keyword">string</span></span> path<span class="token punctuation">,</span>
+            <span class="token class-name">TextureTarget</span> target <span class="token operator">=</span> TextureTarget<span class="token punctuation">.</span>Texture2D<span class="token punctuation">,</span>
+            <span class="token class-name">PixelInternalFormat</span> pixelInternalFormat <span class="token operator">=</span> PixelInternalFormat<span class="token punctuation">.</span>Rgba<span class="token punctuation">,</span>
+            <span class="token class-name">PixelFormat</span> pixelFormat <span class="token operator">=</span> PixelFormat<span class="token punctuation">.</span>Rgba<span class="token punctuation">,</span>
+            <span class="token class-name">PixelType</span> type <span class="token operator">=</span> PixelType<span class="token punctuation">.</span>UnsignedByte<span class="token punctuation">,</span>
+            <span class="token class-name">TextureWrapMode</span> textureSWrapMode <span class="token operator">=</span> TextureWrapMode<span class="token punctuation">.</span>Repeat<span class="token punctuation">,</span>
+            <span class="token class-name">TextureWrapMode</span> textureTWrapMode <span class="token operator">=</span> TextureWrapMode<span class="token punctuation">.</span>Repeat
+        <span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token function">LoadFromTextureBytes</span><span class="token punctuation">(</span>
+                 File<span class="token punctuation">.</span><span class="token function">ReadAllBytes</span><span class="token punctuation">(</span>path<span class="token punctuation">)</span><span class="token punctuation">,</span>
+                 <span class="token named-parameter punctuation">target</span><span class="token punctuation">:</span> target<span class="token punctuation">,</span>
+                 <span class="token named-parameter punctuation">pixelInternalFormat</span><span class="token punctuation">:</span> pixelInternalFormat<span class="token punctuation">,</span>
+                 <span class="token named-parameter punctuation">pixelFormat</span><span class="token punctuation">:</span> pixelFormat<span class="token punctuation">,</span>
+                 <span class="token named-parameter punctuation">type</span><span class="token punctuation">:</span> type<span class="token punctuation">,</span>
+                 <span class="token named-parameter punctuation">textureSWrapMode</span><span class="token punctuation">:</span> textureSWrapMode<span class="token punctuation">,</span>
+                 <span class="token named-parameter punctuation">textureTWrapMode</span><span class="token punctuation">:</span> textureTWrapMode
+            <span class="token punctuation">)</span><span class="token punctuation">;</span>
 
 
-        byte[] pixelDataArray = new byte[image.Width * image.Height * 4];
-        image.CopyPixelDataTo(pixelDataArray);
+        <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token return-type class-name">Texture</span> <span class="token function">LoadFromTextureBytes</span><span class="token punctuation">(</span>
+            <span class="token class-name"><span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> bytes<span class="token punctuation">,</span>
+            <span class="token class-name">TextureTarget</span> target <span class="token operator">=</span> TextureTarget<span class="token punctuation">.</span>Texture2D<span class="token punctuation">,</span>
+            <span class="token class-name">PixelInternalFormat</span> pixelInternalFormat <span class="token operator">=</span> PixelInternalFormat<span class="token punctuation">.</span>Rgba<span class="token punctuation">,</span>
+            <span class="token class-name">PixelFormat</span> pixelFormat <span class="token operator">=</span> PixelFormat<span class="token punctuation">.</span>Rgba<span class="token punctuation">,</span>
+            <span class="token class-name">PixelType</span> type <span class="token operator">=</span> PixelType<span class="token punctuation">.</span>UnsignedByte<span class="token punctuation">,</span>
+            <span class="token class-name">TextureWrapMode</span> textureSWrapMode <span class="token operator">=</span> TextureWrapMode<span class="token punctuation">.</span>Repeat<span class="token punctuation">,</span>
+            <span class="token class-name">TextureWrapMode</span> textureTWrapMode <span class="token operator">=</span> TextureWrapMode<span class="token punctuation">.</span>Repeat
+        <span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
 
-        Texture texture = LoadFromBytes(
-            bytes: pixelDataArray,
-            width: image.Width,
-            height: image.Height,
-            target: target,
-            pixelInternalFormat: pixelInternalFormat,
-            pixelFormat: pixelFormat,
-            type: type,
-            textureSWrapMode: textureSWrapMode,
-            textureTWrapMode: textureTWrapMode
-        );
-        image.Dispose();
+            <span class="token class-name">Image<span class="token punctuation">&lt;</span>Rgba32<span class="token punctuation">&gt;</span></span> image<span class="token punctuation">;</span>
 
-        return texture;
-    }
+            <span class="token keyword">try</span>
+            <span class="token punctuation">{</span>
+                image <span class="token operator">=</span> Image<span class="token punctuation">.</span><span class="token generic-method"><span class="token function">Load</span><span class="token generic class-name"><span class="token punctuation">&lt;</span>Rgba32<span class="token punctuation">&gt;</span></span></span><span class="token punctuation">(</span>bytes<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+            <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Exception</span> ex<span class="token punctuation">)</span>
+            <span class="token punctuation">{</span>
+                Logger<span class="token punctuation">.</span><span class="token function">Log</span><span class="token punctuation">(</span>
+                    <span class="token interpolation-string"><span class="token string">$"An error occured while loading </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token expression language-csharp">LogColors<span class="token punctuation">.</span><span class="token function">BrightWhite</span><span class="token punctuation">(</span><span class="token string">"LoadFromTextureBytes"</span><span class="token punctuation">)</span></span><span class="token punctuation">}</span></span><span class="token string">:\n</span><span class="token interpolation"><span class="token punctuation">{</span><span class="token expression language-csharp">ex<span class="token punctuation">.</span><span class="token function">ToString</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span><span class="token punctuation">}</span></span><span class="token string">"</span></span><span class="token punctuation">,</span>
+                    LogLevel<span class="token punctuation">.</span>Error
+                <span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token comment">// this aint working properly fix it sometime ig</span>
+                Logger<span class="token punctuation">.</span><span class="token function">Log</span><span class="token punctuation">(</span><span class="token interpolation-string"><span class="token string">$"Using default texture..."</span></span><span class="token punctuation">,</span> LogLevel<span class="token punctuation">.</span>Warning<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                image <span class="token operator">=</span> Image<span class="token punctuation">.</span><span class="token generic-method"><span class="token function">Load</span><span class="token generic class-name"><span class="token punctuation">&lt;</span>Rgba32<span class="token punctuation">&gt;</span></span></span><span class="token punctuation">(</span>File<span class="token punctuation">.</span><span class="token function">ReadAllBytes</span><span class="token punctuation">(</span><span class="token string">"Resources/Textures/PlaceHolder.png"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
 
-    public static Texture LoadFromBytes(
-        byte[] bytes,
-        int width,
-        int height,
-        TextureTarget target = TextureTarget.Texture2D,
-        PixelInternalFormat pixelInternalFormat = PixelInternalFormat.Rgba,
-        PixelFormat pixelFormat = PixelFormat.Rgba,
-        PixelType type = PixelType.UnsignedByte,
-        TextureWrapMode textureSWrapMode = TextureWrapMode.Repeat,
-        TextureWrapMode textureTWrapMode = TextureWrapMode.Repeat
-    )
-    {
-        Texture texture = new();
-        texture.bytes = bytes;
-        texture.width = width;
-        texture.height = height;
-        texture.Target = target;
-        texture.PixelInternalFormat = pixelInternalFormat;
-        texture.PixelFormat = pixelFormat;
-        texture.PixelType = type;
-        texture.TextureSWrapMode = textureSWrapMode;
-        texture.TextureTWrapMode = textureTWrapMode;
 
-        return texture;
-    }
+            <span class="token class-name"><span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> pixelDataArray <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token constructor-invocation class-name"><span class="token keyword">byte</span></span><span class="token punctuation">[</span>image<span class="token punctuation">.</span>Width <span class="token operator">*</span> image<span class="token punctuation">.</span>Height <span class="token operator">*</span> <span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+            image<span class="token punctuation">.</span><span class="token function">CopyPixelDataTo</span><span class="token punctuation">(</span>pixelDataArray<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-    public void Init()
-    {
-        this.Handle = GL.GenTexture();
+            <span class="token class-name">Texture</span> texture <span class="token operator">=</span> <span class="token function">LoadFromBytes</span><span class="token punctuation">(</span>
+                <span class="token named-parameter punctuation">bytes</span><span class="token punctuation">:</span> pixelDataArray<span class="token punctuation">,</span>
+                <span class="token named-parameter punctuation">width</span><span class="token punctuation">:</span> image<span class="token punctuation">.</span>Width<span class="token punctuation">,</span>
+                <span class="token named-parameter punctuation">height</span><span class="token punctuation">:</span> image<span class="token punctuation">.</span>Height<span class="token punctuation">,</span>
+                <span class="token named-parameter punctuation">target</span><span class="token punctuation">:</span> target<span class="token punctuation">,</span>
+                <span class="token named-parameter punctuation">pixelInternalFormat</span><span class="token punctuation">:</span> pixelInternalFormat<span class="token punctuation">,</span>
+                <span class="token named-parameter punctuation">pixelFormat</span><span class="token punctuation">:</span> pixelFormat<span class="token punctuation">,</span>
+                <span class="token named-parameter punctuation">type</span><span class="token punctuation">:</span> type<span class="token punctuation">,</span>
+                <span class="token named-parameter punctuation">textureSWrapMode</span><span class="token punctuation">:</span> textureSWrapMode<span class="token punctuation">,</span>
+                <span class="token named-parameter punctuation">textureTWrapMode</span><span class="token punctuation">:</span> textureTWrapMode
+            <span class="token punctuation">)</span><span class="token punctuation">;</span>
+            image<span class="token punctuation">.</span><span class="token function">Dispose</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-        if (flipped)
-        {
-            var image = Image.LoadPixelData&lt;Rgba32&gt;(
-                data: bytes,
-                width: width,
-                height: height
-            );
-            image.Mutate(s =&gt; s.Flip(FlipMode.Vertical));
-            image.CopyPixelDataTo(bytes);
-            image.Dispose();
-        }
+            <span class="token keyword">return</span> texture<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
 
-        if (this.Handle == 0)
-            Logger.Log(
-                $"Failed to generate texture for LoadFromBytes",
-            LogLevel.Error
-            );
+        <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token return-type class-name">Texture</span> <span class="token function">LoadFromBytes</span><span class="token punctuation">(</span>
+            <span class="token class-name"><span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> bytes<span class="token punctuation">,</span>
+            <span class="token class-name"><span class="token keyword">int</span></span> width<span class="token punctuation">,</span>
+            <span class="token class-name"><span class="token keyword">int</span></span> height<span class="token punctuation">,</span>
+            <span class="token class-name">TextureTarget</span> target <span class="token operator">=</span> TextureTarget<span class="token punctuation">.</span>Texture2D<span class="token punctuation">,</span>
+            <span class="token class-name">PixelInternalFormat</span> pixelInternalFormat <span class="token operator">=</span> PixelInternalFormat<span class="token punctuation">.</span>Rgba<span class="token punctuation">,</span>
+            <span class="token class-name">PixelFormat</span> pixelFormat <span class="token operator">=</span> PixelFormat<span class="token punctuation">.</span>Rgba<span class="token punctuation">,</span>
+            <span class="token class-name">PixelType</span> type <span class="token operator">=</span> PixelType<span class="token punctuation">.</span>UnsignedByte<span class="token punctuation">,</span>
+            <span class="token class-name">TextureWrapMode</span> textureSWrapMode <span class="token operator">=</span> TextureWrapMode<span class="token punctuation">.</span>Repeat<span class="token punctuation">,</span>
+            <span class="token class-name">TextureWrapMode</span> textureTWrapMode <span class="token operator">=</span> TextureWrapMode<span class="token punctuation">.</span>Repeat
+        <span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token class-name">Texture</span> texture <span class="token operator">=</span> <span class="token keyword">new</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            texture<span class="token punctuation">.</span>bytes <span class="token operator">=</span> bytes<span class="token punctuation">;</span>
+            texture<span class="token punctuation">.</span>width <span class="token operator">=</span> width<span class="token punctuation">;</span>
+            texture<span class="token punctuation">.</span>height <span class="token operator">=</span> height<span class="token punctuation">;</span>
+            texture<span class="token punctuation">.</span>Target <span class="token operator">=</span> target<span class="token punctuation">;</span>
+            texture<span class="token punctuation">.</span>PixelInternalFormat <span class="token operator">=</span> pixelInternalFormat<span class="token punctuation">;</span>
+            texture<span class="token punctuation">.</span>PixelFormat <span class="token operator">=</span> pixelFormat<span class="token punctuation">;</span>
+            texture<span class="token punctuation">.</span>PixelType <span class="token operator">=</span> type<span class="token punctuation">;</span>
+            texture<span class="token punctuation">.</span>TextureSWrapMode <span class="token operator">=</span> textureSWrapMode<span class="token punctuation">;</span>
+            texture<span class="token punctuation">.</span>TextureTWrapMode <span class="token operator">=</span> textureTWrapMode<span class="token punctuation">;</span>
 
-        GL.BindTexture(TextureTarget.Texture2D, this.Handle);
+            <span class="token keyword">return</span> texture<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
 
-        GL.TexParameter(
-            TextureTarget.Texture2D,
-            TextureParameterName.TextureWrapS,
-            (int)TextureSWrapMode
-        );
-        GL.TexParameter(
-            TextureTarget.Texture2D,
-            TextureParameterName.TextureWrapT,
-            (int)TextureTWrapMode
-        );
+        <span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Init</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span>Handle <span class="token operator">=</span> GL<span class="token punctuation">.</span><span class="token function">GenTexture</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-        GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureBaseLevel, 0);
-        GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureMaxLevel, 0);
-        GL.TexImage2D(
-            this.Target,
-            0,
-            this.PixelInternalFormat,
-            width,
-            height,
-            0,
-            this.PixelFormat,
-            this.PixelType,
-            bytes
-        );
-        this.initalised = true;
-        this.bytes = [];
-        Logger.Log(
-            $"Initalized texture {LogColors.BrightWhite(this.Handle)}",
-            LogLevel.Detail
-        );
-    }
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>flipped<span class="token punctuation">)</span>
+            <span class="token punctuation">{</span>
+                <span class="token class-name"><span class="token keyword">var</span></span> image <span class="token operator">=</span> Image<span class="token punctuation">.</span><span class="token generic-method"><span class="token function">LoadPixelData</span><span class="token generic class-name"><span class="token punctuation">&lt;</span>Rgba32<span class="token punctuation">&gt;</span></span></span><span class="token punctuation">(</span>
+                    <span class="token named-parameter punctuation">data</span><span class="token punctuation">:</span> bytes<span class="token punctuation">,</span>
+                    <span class="token named-parameter punctuation">width</span><span class="token punctuation">:</span> width<span class="token punctuation">,</span>
+                    <span class="token named-parameter punctuation">height</span><span class="token punctuation">:</span> height
+                <span class="token punctuation">)</span><span class="token punctuation">;</span>
+                image<span class="token punctuation">.</span><span class="token function">Mutate</span><span class="token punctuation">(</span>s <span class="token operator">=&gt;</span> s<span class="token punctuation">.</span><span class="token function">Flip</span><span class="token punctuation">(</span>FlipMode<span class="token punctuation">.</span>Vertical<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                image<span class="token punctuation">.</span><span class="token function">CopyPixelDataTo</span><span class="token punctuation">(</span>bytes<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                image<span class="token punctuation">.</span><span class="token function">Dispose</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
 
-    public static Texture LoadFromSize( // shouldnt need an init
-        int width,
-        int height,
-        TextureTarget target = TextureTarget.Texture2D,
-        PixelInternalFormat pixelInternalFormat = PixelInternalFormat.Rgba,
-        PixelFormat pixelFormat = PixelFormat.Rgba,
-        PixelType type = PixelType.UnsignedByte
-    )
-    {
-        Texture texture = new Texture();
-        texture.Handle = GL.GenTexture();
-        texture.width = width;
-        texture.height = height;
-        GL.BindTexture(TextureTarget.Texture2D, texture.Handle);
-        GL.TexParameter(
-            TextureTarget.Texture2D,
-            TextureParameterName.TextureWrapS,
-            (int)TextureWrapMode.Repeat
-        );
-        GL.TexParameter(
-            TextureTarget.Texture2D,
-            TextureParameterName.TextureWrapT,
-            (int)TextureWrapMode.Repeat
-        );
-        GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureBaseLevel, 0);
-        GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureMaxLevel, 0);
-        GL.TexImage2D(
-            target,
-            0,
-            pixelInternalFormat,
-            width,
-            height,
-            0,
-            pixelFormat,
-            type,
-            nint.Zero
-        );
-        texture.initalised = true;
-        Logger.Log(
-            $"Initalized empty texture {LogColors.BrightWhite(texture.Handle)}: {LogColors.BrightWhite(width)}x{LogColors.BrightWhite(height)}",
-            LogLevel.Detail
-        );
-        return texture;
-    }
-    #endregion
+            <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>Handle <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span>
+                Logger<span class="token punctuation">.</span><span class="token function">Log</span><span class="token punctuation">(</span>
+                    <span class="token interpolation-string"><span class="token string">$"Failed to generate texture for LoadFromBytes"</span></span><span class="token punctuation">,</span>
+                LogLevel<span class="token punctuation">.</span>Error
+                <span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-    #region opengl functions
-    private void Check()
-    {
-        if (initalised)
-            return;
-        Logger.Log($"Texture {Handle} used without initalisation", LogLevel.Error);
-    }
+            GL<span class="token punctuation">.</span><span class="token function">BindTexture</span><span class="token punctuation">(</span>TextureTarget<span class="token punctuation">.</span>Texture2D<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>Handle<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-    public void Bind()
-    {
-        Check();
-        GL.BindTexture(TextureTarget.Texture2D, Handle);
-    }
+            GL<span class="token punctuation">.</span><span class="token function">TexParameter</span><span class="token punctuation">(</span>
+                TextureTarget<span class="token punctuation">.</span>Texture2D<span class="token punctuation">,</span>
+                TextureParameterName<span class="token punctuation">.</span>TextureWrapS<span class="token punctuation">,</span>
+                <span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span>TextureSWrapMode
+            <span class="token punctuation">)</span><span class="token punctuation">;</span>
+            GL<span class="token punctuation">.</span><span class="token function">TexParameter</span><span class="token punctuation">(</span>
+                TextureTarget<span class="token punctuation">.</span>Texture2D<span class="token punctuation">,</span>
+                TextureParameterName<span class="token punctuation">.</span>TextureWrapT<span class="token punctuation">,</span>
+                <span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span>TextureTWrapMode
+            <span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-    public void Activate(TextureUnit unit)
-    {
-        Check();
-        GL.ActiveTexture(unit);
-    }
-    #endregion
+            GL<span class="token punctuation">.</span><span class="token function">TexParameter</span><span class="token punctuation">(</span>TextureTarget<span class="token punctuation">.</span>Texture2D<span class="token punctuation">,</span> TextureParameterName<span class="token punctuation">.</span>TextureBaseLevel<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            GL<span class="token punctuation">.</span><span class="token function">TexParameter</span><span class="token punctuation">(</span>TextureTarget<span class="token punctuation">.</span>Texture2D<span class="token punctuation">,</span> TextureParameterName<span class="token punctuation">.</span>TextureMaxLevel<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            GL<span class="token punctuation">.</span><span class="token function">TexImage2D</span><span class="token punctuation">(</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>Target<span class="token punctuation">,</span>
+                <span class="token number">0</span><span class="token punctuation">,</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>PixelInternalFormat<span class="token punctuation">,</span>
+                width<span class="token punctuation">,</span>
+                height<span class="token punctuation">,</span>
+                <span class="token number">0</span><span class="token punctuation">,</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>PixelFormat<span class="token punctuation">,</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>PixelType<span class="token punctuation">,</span>
+                bytes
+            <span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span>initalised <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span>bytes <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+            Logger<span class="token punctuation">.</span><span class="token function">Log</span><span class="token punctuation">(</span>
+                <span class="token interpolation-string"><span class="token string">$"Initalized texture </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token expression language-csharp">LogColors<span class="token punctuation">.</span><span class="token function">BrightWhite</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>Handle<span class="token punctuation">)</span></span><span class="token punctuation">}</span></span><span class="token string">"</span></span><span class="token punctuation">,</span>
+                LogLevel<span class="token punctuation">.</span>Detail
+            <span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
 
-    public byte[] GetBytes()
-    {
-        byte[] output = new byte[
-            4 *
-            width *
-            height
-        ];
+        <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token return-type class-name">Texture</span> <span class="token function">LoadFromSize</span><span class="token punctuation">(</span> <span class="token comment">// shouldnt need an init</span>
+            <span class="token class-name"><span class="token keyword">int</span></span> width<span class="token punctuation">,</span>
+            <span class="token class-name"><span class="token keyword">int</span></span> height<span class="token punctuation">,</span>
+            <span class="token class-name">TextureTarget</span> target <span class="token operator">=</span> TextureTarget<span class="token punctuation">.</span>Texture2D<span class="token punctuation">,</span>
+            <span class="token class-name">PixelInternalFormat</span> pixelInternalFormat <span class="token operator">=</span> PixelInternalFormat<span class="token punctuation">.</span>Rgba<span class="token punctuation">,</span>
+            <span class="token class-name">PixelFormat</span> pixelFormat <span class="token operator">=</span> PixelFormat<span class="token punctuation">.</span>Rgba<span class="token punctuation">,</span>
+            <span class="token class-name">PixelType</span> type <span class="token operator">=</span> PixelType<span class="token punctuation">.</span>UnsignedByte
+        <span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token class-name">Texture</span> texture <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token constructor-invocation class-name">Texture</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            texture<span class="token punctuation">.</span>Handle <span class="token operator">=</span> GL<span class="token punctuation">.</span><span class="token function">GenTexture</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            texture<span class="token punctuation">.</span>width <span class="token operator">=</span> width<span class="token punctuation">;</span>
+            texture<span class="token punctuation">.</span>height <span class="token operator">=</span> height<span class="token punctuation">;</span>
+            GL<span class="token punctuation">.</span><span class="token function">BindTexture</span><span class="token punctuation">(</span>TextureTarget<span class="token punctuation">.</span>Texture2D<span class="token punctuation">,</span> texture<span class="token punctuation">.</span>Handle<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            GL<span class="token punctuation">.</span><span class="token function">TexParameter</span><span class="token punctuation">(</span>
+                TextureTarget<span class="token punctuation">.</span>Texture2D<span class="token punctuation">,</span>
+                TextureParameterName<span class="token punctuation">.</span>TextureWrapS<span class="token punctuation">,</span>
+                <span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span>TextureWrapMode<span class="token punctuation">.</span>Repeat
+            <span class="token punctuation">)</span><span class="token punctuation">;</span>
+            GL<span class="token punctuation">.</span><span class="token function">TexParameter</span><span class="token punctuation">(</span>
+                TextureTarget<span class="token punctuation">.</span>Texture2D<span class="token punctuation">,</span>
+                TextureParameterName<span class="token punctuation">.</span>TextureWrapT<span class="token punctuation">,</span>
+                <span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span>TextureWrapMode<span class="token punctuation">.</span>Repeat
+            <span class="token punctuation">)</span><span class="token punctuation">;</span>
+            GL<span class="token punctuation">.</span><span class="token function">TexParameter</span><span class="token punctuation">(</span>TextureTarget<span class="token punctuation">.</span>Texture2D<span class="token punctuation">,</span> TextureParameterName<span class="token punctuation">.</span>TextureBaseLevel<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            GL<span class="token punctuation">.</span><span class="token function">TexParameter</span><span class="token punctuation">(</span>TextureTarget<span class="token punctuation">.</span>Texture2D<span class="token punctuation">,</span> TextureParameterName<span class="token punctuation">.</span>TextureMaxLevel<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            GL<span class="token punctuation">.</span><span class="token function">TexImage2D</span><span class="token punctuation">(</span>
+                target<span class="token punctuation">,</span>
+                <span class="token number">0</span><span class="token punctuation">,</span>
+                pixelInternalFormat<span class="token punctuation">,</span>
+                width<span class="token punctuation">,</span>
+                height<span class="token punctuation">,</span>
+                <span class="token number">0</span><span class="token punctuation">,</span>
+                pixelFormat<span class="token punctuation">,</span>
+                type<span class="token punctuation">,</span>
+                nint<span class="token punctuation">.</span>Zero
+            <span class="token punctuation">)</span><span class="token punctuation">;</span>
+            texture<span class="token punctuation">.</span>initalised <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+            Logger<span class="token punctuation">.</span><span class="token function">Log</span><span class="token punctuation">(</span>
+                <span class="token interpolation-string"><span class="token string">$"Initalized empty texture </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token expression language-csharp">LogColors<span class="token punctuation">.</span><span class="token function">BrightWhite</span><span class="token punctuation">(</span>texture<span class="token punctuation">.</span>Handle<span class="token punctuation">)</span></span><span class="token punctuation">}</span></span><span class="token string">: </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token expression language-csharp">LogColors<span class="token punctuation">.</span><span class="token function">BrightWhite</span><span class="token punctuation">(</span>width<span class="token punctuation">)</span></span><span class="token punctuation">}</span></span><span class="token string">x</span><span class="token interpolation"><span class="token punctuation">{</span><span class="token expression language-csharp">LogColors<span class="token punctuation">.</span><span class="token function">BrightWhite</span><span class="token punctuation">(</span>height<span class="token punctuation">)</span></span><span class="token punctuation">}</span></span><span class="token string">"</span></span><span class="token punctuation">,</span>
+                LogLevel<span class="token punctuation">.</span>Detail
+            <span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">return</span> texture<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token preprocessor property">#<span class="token directive keyword">endregion</span></span>
 
-        unsafe
-        {
-            fixed (byte* outputPtr = output)
-            {
-                Bind();
-                GL.GetTexImage(
-                    TextureTarget.Texture2D,
-                    0,
-                    PixelFormat.Rgba,
-                    PixelType.UnsignedByte,
-                    (nint)outputPtr
-                );
-            }
-        }
+        <span class="token preprocessor property">#<span class="token directive keyword">region</span> opengl functions</span>
+        <span class="token keyword">private</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Check</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>initalised<span class="token punctuation">)</span>
+                <span class="token keyword">return</span><span class="token punctuation">;</span>
+            Logger<span class="token punctuation">.</span><span class="token function">Log</span><span class="token punctuation">(</span><span class="token interpolation-string"><span class="token string">$"Texture </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token expression language-csharp">Handle</span><span class="token punctuation">}</span></span><span class="token string"> used without initalisation"</span></span><span class="token punctuation">,</span> LogLevel<span class="token punctuation">.</span>Error<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
 
-        return output;
-    }
+        <span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Bind</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token function">Check</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            GL<span class="token punctuation">.</span><span class="token function">BindTexture</span><span class="token punctuation">(</span>TextureTarget<span class="token punctuation">.</span>Texture2D<span class="token punctuation">,</span> Handle<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
 
-    public void SaveToFile(string filePath)
-    {
-        Vector2i size = new(width, height);
-        var image = Image.LoadPixelData&lt;Rgba32&gt;(GetBytes(), size.X, size.Y);
-        image.Mutate(s =&gt; s.Flip(FlipMode.Vertical));
-        if (filePath.Contains(".jpg") || filePath.Contains(".jpeg"))
-            image.SaveAsJpeg(filePath);
-        else
-            image.SaveAsPng(filePath);
-        Logger.Log(
-            $"Saved Texture with {LogColors.BrightWhite(Handle)} as {LogColors.BrightWhite(filePath)}",
-            LogLevel.Detail
-        );
-    }
+        <span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Activate</span><span class="token punctuation">(</span><span class="token class-name">TextureUnit</span> unit<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token function">Check</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            GL<span class="token punctuation">.</span><span class="token function">ActiveTexture</span><span class="token punctuation">(</span>unit<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token preprocessor property">#<span class="token directive keyword">endregion</span></span>
 
-    #region disposal
-    ~Texture()
-    {
-        if (disposed == false)
-            Logger.Log(
-                $"GPU Resource leak for texture! Did you forget to call Dispose()?",
-                LogLevel.Error
-            );
-    }
+        <span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> <span class="token function">GetBytes</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token class-name"><span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> output <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token constructor-invocation class-name"><span class="token keyword">byte</span></span><span class="token punctuation">[</span>
+                <span class="token number">4</span> <span class="token operator">*</span>
+                width <span class="token operator">*</span>
+                height
+            <span class="token punctuation">]</span><span class="token punctuation">;</span>
 
-    protected virtual void Dispose(bool disposing, bool log = true)
-    {
-        if (!disposed)
-        {
-            if (log)
-                Logger.Log(
-                $"{LogColors.BrightYellow("Disposed")} Texture {LogColors.BrightWhite(Handle)}",
-                LogLevel.Detail
-            );
+            <span class="token keyword">unsafe</span>
+            <span class="token punctuation">{</span>
+                <span class="token keyword">fixed</span> <span class="token punctuation">(</span><span class="token keyword">byte</span><span class="token operator">*</span> outputPtr <span class="token operator">=</span> output<span class="token punctuation">)</span>
+                <span class="token punctuation">{</span>
+                    <span class="token function">Bind</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    GL<span class="token punctuation">.</span><span class="token function">GetTexImage</span><span class="token punctuation">(</span>
+                        TextureTarget<span class="token punctuation">.</span>Texture2D<span class="token punctuation">,</span>
+                        <span class="token number">0</span><span class="token punctuation">,</span>
+                        PixelFormat<span class="token punctuation">.</span>Rgba<span class="token punctuation">,</span>
+                        PixelType<span class="token punctuation">.</span>UnsignedByte<span class="token punctuation">,</span>
+                        <span class="token punctuation">(</span>nint<span class="token punctuation">)</span>outputPtr
+                    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
 
-            GL.DeleteTexture(Handle);
-            Handle = 0;
-            disposed = true;
-        }
-    }
-    public bool logDisposal = true;
+            <span class="token keyword">return</span> output<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
 
-    public void Dispose()
-    {
-        Dispose(true, logDisposal);
-        GC.SuppressFinalize(this);
-    }
-    #endregion
-}
-</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-p"><p dir="auto">}</p></div><div class="mod-footer mod-ui"></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+        <span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">SaveToFile</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">string</span></span> filePath<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token class-name">Vector2i</span> size <span class="token operator">=</span> <span class="token keyword">new</span><span class="token punctuation">(</span>width<span class="token punctuation">,</span> height<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token class-name"><span class="token keyword">var</span></span> image <span class="token operator">=</span> Image<span class="token punctuation">.</span><span class="token generic-method"><span class="token function">LoadPixelData</span><span class="token generic class-name"><span class="token punctuation">&lt;</span>Rgba32<span class="token punctuation">&gt;</span></span></span><span class="token punctuation">(</span><span class="token function">GetBytes</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> size<span class="token punctuation">.</span>X<span class="token punctuation">,</span> size<span class="token punctuation">.</span>Y<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            image<span class="token punctuation">.</span><span class="token function">Mutate</span><span class="token punctuation">(</span>s <span class="token operator">=&gt;</span> s<span class="token punctuation">.</span><span class="token function">Flip</span><span class="token punctuation">(</span>FlipMode<span class="token punctuation">.</span>Vertical<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>filePath<span class="token punctuation">.</span><span class="token function">Contains</span><span class="token punctuation">(</span><span class="token string">".jpg"</span><span class="token punctuation">)</span> <span class="token operator">||</span> filePath<span class="token punctuation">.</span><span class="token function">Contains</span><span class="token punctuation">(</span><span class="token string">".jpeg"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+                image<span class="token punctuation">.</span><span class="token function">SaveAsJpeg</span><span class="token punctuation">(</span>filePath<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">else</span>
+                image<span class="token punctuation">.</span><span class="token function">SaveAsPng</span><span class="token punctuation">(</span>filePath<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            Logger<span class="token punctuation">.</span><span class="token function">Log</span><span class="token punctuation">(</span>
+                <span class="token interpolation-string"><span class="token string">$"Saved Texture with </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token expression language-csharp">LogColors<span class="token punctuation">.</span><span class="token function">BrightWhite</span><span class="token punctuation">(</span>Handle<span class="token punctuation">)</span></span><span class="token punctuation">}</span></span><span class="token string"> as </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token expression language-csharp">LogColors<span class="token punctuation">.</span><span class="token function">BrightWhite</span><span class="token punctuation">(</span>filePath<span class="token punctuation">)</span></span><span class="token punctuation">}</span></span><span class="token string">"</span></span><span class="token punctuation">,</span>
+                LogLevel<span class="token punctuation">.</span>Detail
+            <span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token preprocessor property">#<span class="token directive keyword">region</span> disposal</span>
+        <span class="token operator">~</span><span class="token function">Texture</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>disposed <span class="token operator">==</span> <span class="token boolean">false</span><span class="token punctuation">)</span>
+                Logger<span class="token punctuation">.</span><span class="token function">Log</span><span class="token punctuation">(</span>
+                    <span class="token interpolation-string"><span class="token string">$"GPU Resource leak for texture! Did you forget to call Dispose()?"</span></span><span class="token punctuation">,</span>
+                    LogLevel<span class="token punctuation">.</span>Error
+                <span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token keyword">protected</span> <span class="token keyword">virtual</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Dispose</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">bool</span></span> disposing<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">bool</span></span> log <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>disposed<span class="token punctuation">)</span>
+            <span class="token punctuation">{</span>
+                <span class="token keyword">if</span> <span class="token punctuation">(</span>log<span class="token punctuation">)</span>
+                    Logger<span class="token punctuation">.</span><span class="token function">Log</span><span class="token punctuation">(</span>
+                    <span class="token interpolation-string"><span class="token string">$"</span><span class="token interpolation"><span class="token punctuation">{</span><span class="token expression language-csharp">LogColors<span class="token punctuation">.</span><span class="token function">BrightYellow</span><span class="token punctuation">(</span><span class="token string">"Disposed"</span><span class="token punctuation">)</span></span><span class="token punctuation">}</span></span><span class="token string"> Texture </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token expression language-csharp">LogColors<span class="token punctuation">.</span><span class="token function">BrightWhite</span><span class="token punctuation">(</span>Handle<span class="token punctuation">)</span></span><span class="token punctuation">}</span></span><span class="token string">"</span></span><span class="token punctuation">,</span>
+                    LogLevel<span class="token punctuation">.</span>Detail
+                <span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+                GL<span class="token punctuation">.</span><span class="token function">DeleteTexture</span><span class="token punctuation">(</span>Handle<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                Handle <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+                disposed <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">public</span> <span class="token class-name"><span class="token keyword">bool</span></span> logDisposal <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Dispose</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token function">Dispose</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">,</span> logDisposal<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            GC<span class="token punctuation">.</span><span class="token function">SuppressFinalize</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token preprocessor property">#<span class="token directive keyword">endregion</span></span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="mod-footer mod-ui"></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
 		<div class="graph-view-container">
 			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
 			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>

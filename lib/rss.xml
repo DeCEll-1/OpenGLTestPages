@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 30 May 2025 20:09:33 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 30 May 2025 20:09:30 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Matrix3Extensions]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 30 May 2025 20:12:32 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 30 May 2025 20:12:29 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Matrix3Extensions.cs]]></title><description><![CDATA[ 
  <br>using OpenTK.Mathematics;
 
 namespace OpenglTestConsole.Classes.API.Extensions
@@ -29,7 +29,7 @@ namespace OpenglTestConsole.Classes.API.Extensions
         }
     }
 }
-]]></description><link>api\extensions\matrix3extensions.html</link><guid isPermaLink="false">API/Extensions/Matrix3Extensions.md</guid><pubDate>Fri, 30 May 2025 20:05:30 GMT</pubDate></item><item><title><![CDATA[VectorExtensions]]></title><description><![CDATA[ 
+]]></description><link>api\extensions\matrix3extensions.cs.html</link><guid isPermaLink="false">API/Extensions/Matrix3Extensions.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:30 GMT</pubDate></item><item><title><![CDATA[VectorExtensions.cs]]></title><description><![CDATA[ 
  <br>using System.Globalization;
 using OpenTK.Mathematics;
 
@@ -121,7 +121,7 @@ namespace OpenglTestConsole.Classes.API.Extensions
         #endregion
     }
 }
-]]></description><link>api\extensions\vectorextensions.html</link><guid isPermaLink="false">API/Extensions/VectorExtensions.md</guid><pubDate>Fri, 30 May 2025 20:05:30 GMT</pubDate></item><item><title><![CDATA[LoadJsonFromFile]]></title><description><![CDATA[ 
+]]></description><link>api\extensions\vectorextensions.cs.html</link><guid isPermaLink="false">API/Extensions/VectorExtensions.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:30 GMT</pubDate></item><item><title><![CDATA[LoadJsonFromFile.cs]]></title><description><![CDATA[ 
  <br>namespace OpenglTestConsole.Classes.API.JSON
 {
     public class LoadJsonFromFile&lt;T&gt;
@@ -135,7 +135,7 @@ namespace OpenglTestConsole.Classes.API.Extensions
         }
     }
 }
-]]></description><link>api\json\loadjsonfromfile.html</link><guid isPermaLink="false">API/JSON/LoadJsonFromFile.md</guid><pubDate>Fri, 30 May 2025 20:05:30 GMT</pubDate></item><item><title><![CDATA[MCSDFJson]]></title><description><![CDATA[ 
+]]></description><link>api\json\loadjsonfromfile.cs.html</link><guid isPermaLink="false">API/JSON/LoadJsonFromFile.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:30 GMT</pubDate></item><item><title><![CDATA[MCSDFJson.cs]]></title><description><![CDATA[ 
  <br>namespace OpenglTestConsole.Classes.API.JSON
 {
     public class MCSDFJSON
@@ -191,7 +191,7 @@ namespace OpenglTestConsole.Classes.API.Extensions
             LoadJsonFromFile&lt;FontJson&gt;.Load(jsonPath)!;
     }
 }
-]]></description><link>api\json\mcsdfjson.html</link><guid isPermaLink="false">API/JSON/MCSDFJson.md</guid><pubDate>Fri, 30 May 2025 20:05:30 GMT</pubDate></item><item><title><![CDATA[EasingFunctions]]></title><description><![CDATA[ 
+]]></description><link>api\json\mcsdfjson.cs.html</link><guid isPermaLink="false">API/JSON/MCSDFJson.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:30 GMT</pubDate></item><item><title><![CDATA[EasingFunctions.cs]]></title><description><![CDATA[ 
  <br>namespace OpenglTestConsole.Classes.API.Misc
 { // source: https://gist.github.com/Kryzarel/bba64622057f21a1d6d44879f9cd7bd4#file-easingfunctions-cs
     // Made with the help of this great post: https://joshondesign.com/2013/03/01/improvedEasingEquations
@@ -344,7 +344,7 @@ namespace OpenglTestConsole.Classes.API.Extensions
         }
     }
 }
-]]></description><link>api\misc\easingfunctions.html</link><guid isPermaLink="false">API/Misc/EasingFunctions.md</guid><pubDate>Fri, 30 May 2025 20:05:31 GMT</pubDate></item><item><title><![CDATA[Logger]]></title><description><![CDATA[ 
+]]></description><link>api\misc\easingfunctions.cs.html</link><guid isPermaLink="false">API/Misc/EasingFunctions.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:30 GMT</pubDate></item><item><title><![CDATA[Logger.cs]]></title><description><![CDATA[ 
  <br>namespace OpenglTestConsole.Classes.API.Misc
 {
     public class Logger
@@ -532,7 +532,7 @@ namespace OpenglTestConsole.Classes.API.Extensions
         #endregion
     }
 }
-]]></description><link>api\misc\logger.html</link><guid isPermaLink="false">API/Misc/Logger.md</guid><pubDate>Fri, 30 May 2025 20:05:31 GMT</pubDate></item><item><title><![CDATA[MathMisc]]></title><description><![CDATA[ 
+]]></description><link>api\misc\logger.cs.html</link><guid isPermaLink="false">API/Misc/Logger.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:30 GMT</pubDate></item><item><title><![CDATA[MathMisc.cs]]></title><description><![CDATA[ 
  <br>namespace OpenglTestConsole.Classes.API.Misc
 {
     public class MathMisc
@@ -557,7 +557,7 @@ namespace OpenglTestConsole.Classes.API.Extensions
         public static float SinfRad(double x) =&gt; (float)Math.Sin(x);
     }
 }
-]]></description><link>api\misc\mathmisc.html</link><guid isPermaLink="false">API/Misc/MathMisc.md</guid><pubDate>Fri, 30 May 2025 20:05:31 GMT</pubDate></item><item><title><![CDATA[RenderMisc]]></title><description><![CDATA[ 
+]]></description><link>api\misc\mathmisc.cs.html</link><guid isPermaLink="false">API/Misc/MathMisc.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:30 GMT</pubDate></item><item><title><![CDATA[RenderMisc.cs]]></title><description><![CDATA[ 
  <br>using OpenglTestConsole.Classes.API.Rendering.Textures;
 using OpenTK.Mathematics;
 
@@ -615,7 +615,7 @@ namespace OpenglTestConsole.Classes.API.Misc
         }
     }
 }
-]]></description><link>api\misc\rendermisc.html</link><guid isPermaLink="false">API/Misc/RenderMisc.md</guid><pubDate>Fri, 30 May 2025 20:05:31 GMT</pubDate></item><item><title><![CDATA[Cube]]></title><description><![CDATA[ 
+]]></description><link>api\misc\rendermisc.cs.html</link><guid isPermaLink="false">API/Misc/RenderMisc.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:30 GMT</pubDate></item><item><title><![CDATA[Cube.cs]]></title><description><![CDATA[ 
  <br>using OpenTK.Mathematics;
 
 namespace OpenglTestConsole.Classes.API.Rendering.Geometries
@@ -709,7 +709,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.Geometries
         }
     }
 }
-]]></description><link>api\rendering\geometries\cube.html</link><guid isPermaLink="false">API/Rendering/Geometries/Cube.md</guid><pubDate>Fri, 30 May 2025 20:05:31 GMT</pubDate></item><item><title><![CDATA[Cylinder]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\geometries\cube.cs.html</link><guid isPermaLink="false">API/Rendering/Geometries/Cube.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:30 GMT</pubDate></item><item><title><![CDATA[Cylinder.cs]]></title><description><![CDATA[ 
  <br>using OpenglTestConsole.Classes.API.Misc;
 using OpenglTestConsole.Classes.API.Rendering.MeshClasses;
 using OpenTK.Mathematics;
@@ -923,7 +923,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.Geometries
         }
     }
 }
-]]></description><link>api\rendering\geometries\cylinder.html</link><guid isPermaLink="false">API/Rendering/Geometries/Cylinder.md</guid><pubDate>Fri, 30 May 2025 20:05:31 GMT</pubDate></item><item><title><![CDATA[Geometry3D]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\geometries\cylinder.cs.html</link><guid isPermaLink="false">API/Rendering/Geometries/Cylinder.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:30 GMT</pubDate></item><item><title><![CDATA[Geometry3D.cs]]></title><description><![CDATA[ 
  <br>using OpenglTestConsole.Classes.API.Rendering.MeshClasses;
 using OpenTK.Mathematics;
 
@@ -994,7 +994,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.Geometries
         }
     }
 }
-]]></description><link>api\rendering\geometries\geometry3d.html</link><guid isPermaLink="false">API/Rendering/Geometries/Geometry3D.md</guid><pubDate>Fri, 30 May 2025 20:05:31 GMT</pubDate></item><item><title><![CDATA[MergedGeometry]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\geometries\geometry3d.cs.html</link><guid isPermaLink="false">API/Rendering/Geometries/Geometry3D.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:30 GMT</pubDate></item><item><title><![CDATA[MergedGeometry.cs]]></title><description><![CDATA[ 
  <br>namespace OpenglTestConsole.Classes.API.Rendering.Geometries
 {
     public class MergedGeometry : Geometry3D
@@ -1002,7 +1002,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.Geometries
         public MergedGeometry() { }
     }
 }
-]]></description><link>api\rendering\geometries\mergedgeometry.html</link><guid isPermaLink="false">API/Rendering/Geometries/MergedGeometry.md</guid><pubDate>Fri, 30 May 2025 20:05:31 GMT</pubDate></item><item><title><![CDATA[Skybox]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\geometries\mergedgeometry.cs.html</link><guid isPermaLink="false">API/Rendering/Geometries/MergedGeometry.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:30 GMT</pubDate></item><item><title><![CDATA[Skybox.cs]]></title><description><![CDATA[ 
  <br>using OpenTK.Mathematics;
 using System;
 using System.Collections.Generic;
@@ -1082,7 +1082,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.Geometries
         }
     }
 }
-]]></description><link>api\rendering\geometries\skybox.html</link><guid isPermaLink="false">API/Rendering/Geometries/Skybox.md</guid><pubDate>Fri, 30 May 2025 20:05:31 GMT</pubDate></item><item><title><![CDATA[Sphere]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\geometries\skybox.cs.html</link><guid isPermaLink="false">API/Rendering/Geometries/Skybox.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:30 GMT</pubDate></item><item><title><![CDATA[Sphere.cs]]></title><description><![CDATA[ 
  <br>using OpenglTestConsole.Classes.API.Misc;
 using OpenglTestConsole.Classes.API.Rendering.MeshClasses;
 using OpenTK.Mathematics;
@@ -1216,7 +1216,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.Geometries
         }
     }
 }
-]]></description><link>api\rendering\geometries\sphere.html</link><guid isPermaLink="false">API/Rendering/Geometries/Sphere.md</guid><pubDate>Fri, 30 May 2025 20:05:31 GMT</pubDate></item><item><title><![CDATA[Square]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\geometries\sphere.cs.html</link><guid isPermaLink="false">API/Rendering/Geometries/Sphere.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:30 GMT</pubDate></item><item><title><![CDATA[Square.cs]]></title><description><![CDATA[ 
  <br>using OpenTK.Mathematics;
 
 namespace OpenglTestConsole.Classes.API.Rendering.Geometries
@@ -1277,7 +1277,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.Geometries
         }
     }
 }
-]]></description><link>api\rendering\geometries\square.html</link><guid isPermaLink="false">API/Rendering/Geometries/Square.md</guid><pubDate>Fri, 30 May 2025 20:05:31 GMT</pubDate></item><item><title><![CDATA[PhongMaterials]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\geometries\square.cs.html</link><guid isPermaLink="false">API/Rendering/Geometries/Square.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:30 GMT</pubDate></item><item><title><![CDATA[PhongMaterials.cs]]></title><description><![CDATA[ 
  <br>using OpenTK.Mathematics;
 
 namespace OpenglTestConsole.Classes.API.Rendering.Materials
@@ -1457,7 +1457,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.Materials
         #endregion
     }
 }
-]]></description><link>api\rendering\materials\predefinedmaterials\phongmaterials.html</link><guid isPermaLink="false">API/Rendering/Materials/PreDefinedMaterials/PhongMaterials.md</guid><pubDate>Fri, 30 May 2025 20:05:31 GMT</pubDate></item><item><title><![CDATA[MonoColorMaterial]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\materials\predefinedmaterials\phongmaterials.cs.html</link><guid isPermaLink="false">API/Rendering/Materials/PreDefinedMaterials/PhongMaterials.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:30 GMT</pubDate></item><item><title><![CDATA[MonoColorMaterial.cs]]></title><description><![CDATA[ 
  <br>using OpenglTestConsole.Classes.API.Rendering.Shaders;
 using OpenglTestConsole.Generated.Paths;
 using OpenTK.Mathematics;
@@ -1483,7 +1483,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.Materials
         }
     }
 }
-]]></description><link>api\rendering\materials\monocolormaterial.html</link><guid isPermaLink="false">API/Rendering/Materials/MonoColorMaterial.md</guid><pubDate>Fri, 30 May 2025 20:05:31 GMT</pubDate></item><item><title><![CDATA[PhongMaterial]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\materials\monocolormaterial.cs.html</link><guid isPermaLink="false">API/Rendering/Materials/MonoColorMaterial.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[PhongMaterial.cs]]></title><description><![CDATA[ 
  <br>using OpenglTestConsole.Classes.API.Rendering.Shaders;
 using OpenTK.Mathematics;
 using OpenglTestConsole.Generated.Paths;
@@ -1535,7 +1535,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.Materials
         }
     }
 }
-]]></description><link>api\rendering\materials\phongmaterial.html</link><guid isPermaLink="false">API/Rendering/Materials/PhongMaterial.md</guid><pubDate>Fri, 30 May 2025 20:05:31 GMT</pubDate></item><item><title><![CDATA[SkyboxMaterial]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\materials\phongmaterial.cs.html</link><guid isPermaLink="false">API/Rendering/Materials/PhongMaterial.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[SkyboxMaterial.cs]]></title><description><![CDATA[ 
  <br>using OpenglTestConsole.Classes.API.Rendering.Shaders;
 using OpenglTestConsole.Classes.API.Rendering.Textures;
 using OpenglTestConsole.Generated.Paths;
@@ -1561,7 +1561,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.Materials
         }
     }
 }
-]]></description><link>api\rendering\materials\skyboxmaterial.html</link><guid isPermaLink="false">API/Rendering/Materials/SkyboxMaterial.md</guid><pubDate>Fri, 30 May 2025 20:05:31 GMT</pubDate></item><item><title><![CDATA[StandartMaterial]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\materials\skyboxmaterial.cs.html</link><guid isPermaLink="false">API/Rendering/Materials/SkyboxMaterial.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[StandartMaterial.cs]]></title><description><![CDATA[ 
  <br>using OpenglTestConsole.Classes.API.Rendering.Shaders;
 using System;
 using System.Collections.Generic;
@@ -1584,7 +1584,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.Materials
         }
     }
 }
-]]></description><link>api\rendering\materials\standartmaterial.html</link><guid isPermaLink="false">API/Rendering/Materials/StandartMaterial.md</guid><pubDate>Fri, 30 May 2025 20:05:31 GMT</pubDate></item><item><title><![CDATA[TextureMaterial]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\materials\standartmaterial.cs.html</link><guid isPermaLink="false">API/Rendering/Materials/StandartMaterial.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[TextureMaterial.cs]]></title><description><![CDATA[ 
  <br>using OpenglTestConsole.Classes.API.Rendering.Shaders;
 using OpenTK.Mathematics;
 using OpenglTestConsole.Generated.Paths;
@@ -1609,7 +1609,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.Materials
         }
     }
 }
-]]></description><link>api\rendering\materials\texturematerial.html</link><guid isPermaLink="false">API/Rendering/Materials/TextureMaterial.md</guid><pubDate>Fri, 30 May 2025 20:05:31 GMT</pubDate></item><item><title><![CDATA[BufferManager]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\materials\texturematerial.cs.html</link><guid isPermaLink="false">API/Rendering/Materials/TextureMaterial.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[BufferManager.cs]]></title><description><![CDATA[ 
  <br>using OpenTK.Mathematics;
 
 namespace OpenglTestConsole.Classes.API.Rendering.MeshClasses
@@ -1851,7 +1851,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.MeshClasses
         #endregion
     }
 }
-]]></description><link>api\rendering\meshclasses\buffermanager.html</link><guid isPermaLink="false">API/Rendering/MeshClasses/BufferManager.md</guid><pubDate>Fri, 30 May 2025 20:05:32 GMT</pubDate></item><item><title><![CDATA[InstancedMesh]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\meshclasses\buffermanager.cs.html</link><guid isPermaLink="false">API/Rendering/MeshClasses/BufferManager.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[InstancedMesh.cs]]></title><description><![CDATA[ 
  <br>using Newtonsoft.Json.Linq;
 using OpenglTestConsole.Classes.API.Extensions;
 using OpenglTestConsole.Classes.API.Rendering;
@@ -1928,7 +1928,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.MeshClasses
         #endregion
     }
 }
-]]></description><link>api\rendering\meshclasses\instancedmesh.html</link><guid isPermaLink="false">API/Rendering/MeshClasses/InstancedMesh.md</guid><pubDate>Fri, 30 May 2025 20:05:32 GMT</pubDate></item><item><title><![CDATA[InstancedMeshShaders]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\meshclasses\instancedmesh.cs.html</link><guid isPermaLink="false">API/Rendering/MeshClasses/InstancedMesh.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[InstancedMeshShaders.cs]]></title><description><![CDATA[ 
  <br>using OpenTK.Graphics.OpenGL;
 using OpenTK.Mathematics;
 using System;
@@ -2011,7 +2011,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.MeshClasses
 
     }
 }
-]]></description><link>api\rendering\meshclasses\instancedmeshshaders.html</link><guid isPermaLink="false">API/Rendering/MeshClasses/InstancedMeshShaders.md</guid><pubDate>Fri, 30 May 2025 20:05:32 GMT</pubDate></item><item><title><![CDATA[Mesh]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\meshclasses\instancedmeshshaders.cs.html</link><guid isPermaLink="false">API/Rendering/MeshClasses/InstancedMeshShaders.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[Mesh.cs]]></title><description><![CDATA[ 
  <br>using OpenglTestConsole.Classes.API.Rendering.Geometries;
 using OpenglTestConsole.Classes.API.Rendering.Shaders;
 
@@ -2104,7 +2104,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.MeshClasses
         #endregion
     }
 }
-]]></description><link>api\rendering\meshclasses\mesh.html</link><guid isPermaLink="false">API/Rendering/MeshClasses/Mesh.md</guid><pubDate>Fri, 30 May 2025 20:05:32 GMT</pubDate></item><item><title><![CDATA[ComputeShader]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\meshclasses\mesh.cs.html</link><guid isPermaLink="false">API/Rendering/MeshClasses/Mesh.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[ComputeShader.cs]]></title><description><![CDATA[ 
  <br>using System.Numerics;
 using OpenglTestConsole.Classes.API.Misc;
 
@@ -2260,7 +2260,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.Shaders.Compute
         #endregion
     }
 }
-]]></description><link>api\rendering\shaders\compute\computeshader.html</link><guid isPermaLink="false">API/Rendering/Shaders/Compute/ComputeShader.md</guid><pubDate>Fri, 30 May 2025 20:05:32 GMT</pubDate></item><item><title><![CDATA[ComputeShaderUnitManager]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\shaders\compute\computeshader.cs.html</link><guid isPermaLink="false">API/Rendering/Shaders/Compute/ComputeShader.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[ComputeShaderUnitManager.cs]]></title><description><![CDATA[ 
  <br>namespace OpenglTestConsole.Classes.API.Rendering.Shaders.Compute
 {
     public class ComputeShaderUnitManager
@@ -2324,7 +2324,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.Shaders.Compute
         }
     }
 }
-]]></description><link>api\rendering\shaders\compute\computeshaderunitmanager.html</link><guid isPermaLink="false">API/Rendering/Shaders/Compute/ComputeShaderUnitManager.md</guid><pubDate>Fri, 30 May 2025 20:05:32 GMT</pubDate></item><item><title><![CDATA[Shader]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\shaders\compute\computeshaderunitmanager.cs.html</link><guid isPermaLink="false">API/Rendering/Shaders/Compute/ComputeShaderUnitManager.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[Shader.cs]]></title><description><![CDATA[ 
  <br>using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -2349,7 +2349,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.Shaders
         }
     }
 }
-]]></description><link>api\rendering\shaders\geometry\shader.html</link><guid isPermaLink="false">API/Rendering/Shaders/Geometry/Shader.md</guid><pubDate>Fri, 30 May 2025 20:05:32 GMT</pubDate></item><item><title><![CDATA[Material]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\shaders\geometry\shader.cs.html</link><guid isPermaLink="false">API/Rendering/Shaders/Geometry/Shader.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[Material.cs]]></title><description><![CDATA[ 
  <br>namespace OpenglTestConsole.Classes.API.Rendering.Shaders
 {
     public abstract class Material
@@ -2365,7 +2365,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.Shaders
         public abstract void Apply();
     }
 }
-]]></description><link>api\rendering\shaders\material.html</link><guid isPermaLink="false">API/Rendering/Shaders/Material.md</guid><pubDate>Fri, 30 May 2025 20:05:32 GMT</pubDate></item><item><title><![CDATA[Shader]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\shaders\material.cs.html</link><guid isPermaLink="false">API/Rendering/Shaders/Material.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[Shader.cs]]></title><description><![CDATA[ 
  <br>using OpenglTestConsole.Classes.API.Misc;
 
 namespace OpenglTestConsole.Classes.API.Rendering.Shaders
@@ -2513,7 +2513,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.Shaders
         #endregion
     }
 }
-]]></description><link>api\rendering\shaders\shader.html</link><guid isPermaLink="false">API/Rendering/Shaders/Shader.md</guid><pubDate>Fri, 30 May 2025 20:05:32 GMT</pubDate></item><item><title><![CDATA[ShaderUniformManager]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\shaders\shader.cs.html</link><guid isPermaLink="false">API/Rendering/Shaders/Shader.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[ShaderUniformManager.cs]]></title><description><![CDATA[ 
  <br>using OpenglTestConsole.Classes.API.Rendering.Textures;
 using OpenTK.Mathematics;
 
@@ -2670,7 +2670,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.Shaders
         #endregion
     }
 }
-]]></description><link>api\rendering\shaders\shaderuniformmanager.html</link><guid isPermaLink="false">API/Rendering/Shaders/ShaderUniformManager.md</guid><pubDate>Fri, 30 May 2025 20:05:32 GMT</pubDate></item><item><title><![CDATA[Cubemap]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\shaders\shaderuniformmanager.cs.html</link><guid isPermaLink="false">API/Rendering/Shaders/ShaderUniformManager.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[Cubemap.cs]]></title><description><![CDATA[ 
  <br>using OpenglTestConsole.Classes.API.Misc;
 using System;
 using System.Collections.Generic;
@@ -2819,7 +2819,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.Textures
         #endregion
     }
 }
-]]></description><link>api\rendering\textures\cubemap.html</link><guid isPermaLink="false">API/Rendering/Textures/Cubemap.md</guid><pubDate>Fri, 30 May 2025 20:05:32 GMT</pubDate></item><item><title><![CDATA[FBO]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\textures\cubemap.cs.html</link><guid isPermaLink="false">API/Rendering/Textures/Cubemap.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[FBO.cs]]></title><description><![CDATA[ 
  <br>using OpenglTestConsole.Classes.Implementations.Classes;
 
 namespace OpenglTestConsole.Classes.API.Rendering.Textures
@@ -2900,7 +2900,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.Textures
 
     }
 }
-]]></description><link>api\rendering\textures\fbo.html</link><guid isPermaLink="false">API/Rendering/Textures/FBO.md</guid><pubDate>Fri, 30 May 2025 20:05:32 GMT</pubDate></item><item><title><![CDATA[Texture]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\textures\fbo.cs.html</link><guid isPermaLink="false">API/Rendering/Textures/FBO.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[Texture.cs]]></title><description><![CDATA[ 
  <br>using OpenglTestConsole.Classes.API.Misc;
 using OpenTK.Audio.OpenAL;
 using OpenTK.Mathematics;
@@ -3222,7 +3222,7 @@ namespace OpenglTestConsole.Classes.API.Rendering.Textures
         #endregion
     }
 }
-]]></description><link>api\rendering\textures\texture.html</link><guid isPermaLink="false">API/Rendering/Textures/Texture.md</guid><pubDate>Fri, 30 May 2025 20:05:32 GMT</pubDate></item><item><title><![CDATA[Camera]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\textures\texture.cs.html</link><guid isPermaLink="false">API/Rendering/Textures/Texture.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[Camera.cs]]></title><description><![CDATA[ 
  <br>using OpenglTestConsole.Classes.Implementations.Classes;
 using OpenTK.Mathematics;
 
@@ -3306,7 +3306,7 @@ namespace OpenglTestConsole.Classes.API.Rendering
         }
     }
 }
-]]></description><link>api\rendering\camera.html</link><guid isPermaLink="false">API/Rendering/Camera.md</guid><pubDate>Fri, 30 May 2025 20:05:32 GMT</pubDate></item><item><title><![CDATA[Light]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\camera.cs.html</link><guid isPermaLink="false">API/Rendering/Camera.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[Light.cs]]></title><description><![CDATA[ 
  <br>using OpenTK.Mathematics;
 
 namespace OpenglTestConsole.Classes.API.Rendering
@@ -3336,7 +3336,7 @@ namespace OpenglTestConsole.Classes.API.Rendering
         }
     }
 }
-]]></description><link>api\rendering\light.html</link><guid isPermaLink="false">API/Rendering/Light.md</guid><pubDate>Fri, 30 May 2025 20:05:32 GMT</pubDate></item><item><title><![CDATA[RenderScript]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\light.cs.html</link><guid isPermaLink="false">API/Rendering/Light.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[RenderScript.cs]]></title><description><![CDATA[ 
  <br>using System.Diagnostics;
 using OpenTK.Windowing.Common;
 
@@ -3356,7 +3356,7 @@ namespace OpenglTestConsole.Classes.API.Rendering
         public virtual void AfterRender() { }
     }
 }
-]]></description><link>api\rendering\renderscript.html</link><guid isPermaLink="false">API/Rendering/RenderScript.md</guid><pubDate>Fri, 30 May 2025 20:05:32 GMT</pubDate></item><item><title><![CDATA[Transform]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\renderscript.cs.html</link><guid isPermaLink="false">API/Rendering/RenderScript.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[Transform.cs]]></title><description><![CDATA[ 
  <br>using OpenTK.Mathematics;
 
 namespace OpenglTestConsole.Classes.API.Rendering
@@ -3407,7 +3407,7 @@ namespace OpenglTestConsole.Classes.API.Rendering
         }
     }
 }
-]]></description><link>api\rendering\transform.html</link><guid isPermaLink="false">API/Rendering/Transform.md</guid><pubDate>Fri, 30 May 2025 20:05:32 GMT</pubDate></item><item><title><![CDATA[EveryFrameScript]]></title><description><![CDATA[ 
+]]></description><link>api\rendering\transform.cs.html</link><guid isPermaLink="false">API/Rendering/Transform.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[EveryFrameScript.cs]]></title><description><![CDATA[ 
  <br>using OpenglTestConsole.Classes.API.Rendering;
 using OpenTK.Windowing.Common;
 using OpenTK.Windowing.GraphicsLibraryFramework;
@@ -3427,7 +3427,7 @@ namespace OpenglTestConsole.Classes.API
         public virtual void OnResourceRefresh() { }
     }
 }
-]]></description><link>api\everyframescript.html</link><guid isPermaLink="false">API/EveryFrameScript.md</guid><pubDate>Fri, 30 May 2025 20:05:21 GMT</pubDate></item><item><title><![CDATA[ResourceController]]></title><description><![CDATA[ 
+]]></description><link>api\everyframescript.cs.html</link><guid isPermaLink="false">API/EveryFrameScript.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[ResourceController.cs]]></title><description><![CDATA[ 
  <br>using System.Reflection;
 using OpenglTestConsole.Classes.API.JSON;
 using OpenglTestConsole.Classes.API.Misc;
@@ -3588,7 +3588,7 @@ namespace OpenglTestConsole.Classes.API
         #endregion
     }
 }
-]]></description><link>api\resourcecontroller.html</link><guid isPermaLink="false">API/ResourceController.md</guid><pubDate>Fri, 30 May 2025 20:05:32 GMT</pubDate></item><item><title><![CDATA[Resources]]></title><description><![CDATA[ 
+]]></description><link>api\resourcecontroller.cs.html</link><guid isPermaLink="false">API/ResourceController.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[Resources.cs]]></title><description><![CDATA[ 
  <br>using OpenglTestConsole.Classes.API.Rendering.Shaders;
 using OpenglTestConsole.Classes.API.Rendering.Shaders.Compute;
 using OpenglTestConsole.Classes.API.Rendering.Textures;
@@ -3605,7 +3605,7 @@ namespace OpenglTestConsole.Classes.API
         public static Dictionary&lt;string, Cubemap&gt; Cubemaps { get; set; } = new();
     }
 }
-]]></description><link>api\resources.html</link><guid isPermaLink="false">API/Resources.md</guid><pubDate>Fri, 30 May 2025 20:05:32 GMT</pubDate></item><item><title><![CDATA[Scene]]></title><description><![CDATA[ 
+]]></description><link>api\resources.cs.html</link><guid isPermaLink="false">API/Resources.cs.md</guid><pubDate>Fri, 30 May 2025 20:12:31 GMT</pubDate></item><item><title><![CDATA[Scene.cs]]></title><description><![CDATA[ 
  <br>using System.Diagnostics;
 using OpenglTestConsole.Classes.API.Rendering;
 using OpenglTestConsole.Classes.API.Rendering.MeshClasses;
@@ -3694,7 +3694,7 @@ namespace OpenglTestConsole.Classes.API
         }
     }
 }
-]]></description><link>api\scene.html</link><guid isPermaLink="false">API/Scene.md</guid><pubDate>Fri, 30 May 2025 20:05:33 GMT</pubDate></item><item><title><![CDATA[Program]]></title><description><![CDATA[ 
+]]></description><link>api\scene.cs.html</link><guid isPermaLink="false">API/Scene.cs.md</guid><pubDate>Fri, 30 May 2025 20:11:46 GMT</pubDate></item><item><title><![CDATA[Program.cs]]></title><description><![CDATA[ 
  <br>global using OpenTK.Graphics.OpenGL;
 using OpenglTestConsole.Classes;
 using OpenglTestConsole.Classes.API.Misc;
@@ -3726,4 +3726,4 @@ namespace OpenglTestConsole
         }
     }
 }
-]]></description><link>program.html</link><guid isPermaLink="false">Program.md</guid><pubDate>Fri, 30 May 2025 20:09:19 GMT</pubDate></item></channel></rss>
+]]></description><link>program.cs.html</link><guid isPermaLink="false">Program.cs.md</guid><pubDate>Fri, 30 May 2025 20:10:29 GMT</pubDate></item></channel></rss>

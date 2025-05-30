@@ -1,56 +1,56 @@
 {
   "vaultName": "Obsidian Vault",
-  "lastExport": 1748635770259,
+  "lastExport": 1748635949977,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
-    "API/Extensions/Matrix3Extensions.md",
-    "API/Extensions/VectorExtensions.md",
-    "API/JSON/LoadJsonFromFile.md",
-    "API/JSON/MCSDFJson.md",
-    "API/Misc/EasingFunctions.md",
-    "API/Misc/Logger.md",
-    "API/Misc/MathMisc.md",
-    "API/Misc/RenderMisc.md",
-    "API/Rendering/Geometries/Cube.md",
-    "API/Rendering/Geometries/Cylinder.md",
-    "API/Rendering/Geometries/Geometry3D.md",
-    "API/Rendering/Geometries/MergedGeometry.md",
-    "API/Rendering/Geometries/Skybox.md",
-    "API/Rendering/Geometries/Sphere.md",
-    "API/Rendering/Geometries/Square.md",
-    "API/Rendering/Materials/PreDefinedMaterials/PhongMaterials.md",
-    "API/Rendering/Materials/MonoColorMaterial.md",
-    "API/Rendering/Materials/PhongMaterial.md",
-    "API/Rendering/Materials/SkyboxMaterial.md",
-    "API/Rendering/Materials/StandartMaterial.md",
-    "API/Rendering/Materials/TextureMaterial.md",
-    "API/Rendering/MeshClasses/BufferManager.md",
-    "API/Rendering/MeshClasses/InstancedMesh.md",
-    "API/Rendering/MeshClasses/InstancedMeshShaders.md",
-    "API/Rendering/MeshClasses/Mesh.md",
-    "API/Rendering/Shaders/Compute/ComputeShader.md",
-    "API/Rendering/Shaders/Compute/ComputeShaderUnitManager.md",
-    "API/Rendering/Shaders/Geometry/Shader.md",
-    "API/Rendering/Shaders/Material.md",
-    "API/Rendering/Shaders/Shader.md",
-    "API/Rendering/Shaders/ShaderUniformManager.md",
-    "API/Rendering/Textures/Cubemap.md",
-    "API/Rendering/Textures/FBO.md",
-    "API/Rendering/Textures/Texture.md",
-    "API/Rendering/Camera.md",
-    "API/Rendering/Light.md",
-    "API/Rendering/RenderScript.md",
-    "API/Rendering/Transform.md",
-    "API/EveryFrameScript.md",
-    "API/ResourceController.md",
-    "API/Resources.md",
-    "API/Scene.md",
+    "API/Extensions/Matrix3Extensions.cs.md",
+    "API/Extensions/VectorExtensions.cs.md",
+    "API/JSON/LoadJsonFromFile.cs.md",
+    "API/JSON/MCSDFJson.cs.md",
+    "API/Misc/EasingFunctions.cs.md",
+    "API/Misc/Logger.cs.md",
+    "API/Misc/MathMisc.cs.md",
+    "API/Misc/RenderMisc.cs.md",
+    "API/Rendering/Geometries/Cube.cs.md",
+    "API/Rendering/Geometries/Cylinder.cs.md",
+    "API/Rendering/Geometries/Geometry3D.cs.md",
+    "API/Rendering/Geometries/MergedGeometry.cs.md",
+    "API/Rendering/Geometries/Skybox.cs.md",
+    "API/Rendering/Geometries/Sphere.cs.md",
+    "API/Rendering/Geometries/Square.cs.md",
+    "API/Rendering/Materials/PreDefinedMaterials/PhongMaterials.cs.md",
+    "API/Rendering/Materials/MonoColorMaterial.cs.md",
+    "API/Rendering/Materials/PhongMaterial.cs.md",
+    "API/Rendering/Materials/SkyboxMaterial.cs.md",
+    "API/Rendering/Materials/StandartMaterial.cs.md",
+    "API/Rendering/Materials/TextureMaterial.cs.md",
+    "API/Rendering/MeshClasses/BufferManager.cs.md",
+    "API/Rendering/MeshClasses/InstancedMesh.cs.md",
+    "API/Rendering/MeshClasses/InstancedMeshShaders.cs.md",
+    "API/Rendering/MeshClasses/Mesh.cs.md",
+    "API/Rendering/Shaders/Compute/ComputeShader.cs.md",
+    "API/Rendering/Shaders/Compute/ComputeShaderUnitManager.cs.md",
+    "API/Rendering/Shaders/Geometry/Shader.cs.md",
+    "API/Rendering/Shaders/Material.cs.md",
+    "API/Rendering/Shaders/Shader.cs.md",
+    "API/Rendering/Shaders/ShaderUniformManager.cs.md",
+    "API/Rendering/Textures/Cubemap.cs.md",
+    "API/Rendering/Textures/FBO.cs.md",
+    "API/Rendering/Textures/Texture.cs.md",
+    "API/Rendering/Camera.cs.md",
+    "API/Rendering/Light.cs.md",
+    "API/Rendering/RenderScript.cs.md",
+    "API/Rendering/Transform.cs.md",
+    "API/EveryFrameScript.cs.md",
+    "API/ResourceController.cs.md",
+    "API/Resources.cs.md",
+    "API/Scene.cs.md",
     "csToMD.ps1",
     "Index.canvas",
-    "Program.md",
+    "Program.cs.md",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -112,441 +112,441 @@
   ],
   "fileInfo": {
     "Index.canvas": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 20766,
+      "modifiedTime": 1748635949977,
+      "sourceSize": 20853,
       "exportedPath": "index.html",
       "dependencies": []
     },
-    "Program.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 942,
-      "exportedPath": "program.html",
-      "dependencies": []
-    },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 46442,
+      "modifiedTime": 1748635949977,
+      "sourceSize": 46700,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 3231,
+      "modifiedTime": 1748635949977,
+      "sourceSize": 3559,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 138258,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 461,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1748635770259,
+      "modifiedTime": 1748635949977,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
-    "API/Extensions/Matrix3Extensions.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 829,
-      "exportedPath": "api/extensions/matrix3extensions.html",
-      "dependencies": []
-    },
-    "API/Extensions/VectorExtensions.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 3298,
-      "exportedPath": "api/extensions/vectorextensions.html",
-      "dependencies": []
-    },
-    "API/JSON/LoadJsonFromFile.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 358,
-      "exportedPath": "api/json/loadjsonfromfile.html",
-      "dependencies": []
-    },
-    "API/JSON/MCSDFJson.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 1724,
-      "exportedPath": "api/json/mcsdfjson.html",
-      "dependencies": []
-    },
-    "API/Misc/EasingFunctions.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 4783,
-      "exportedPath": "api/misc/easingfunctions.html",
-      "dependencies": []
-    },
-    "API/Misc/Logger.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 8591,
-      "exportedPath": "api/misc/logger.html",
-      "dependencies": []
-    },
-    "API/Misc/MathMisc.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 865,
-      "exportedPath": "api/misc/mathmisc.html",
-      "dependencies": []
-    },
-    "API/Misc/RenderMisc.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 1396,
-      "exportedPath": "api/misc/rendermisc.html",
-      "dependencies": []
-    },
-    "API/Rendering/Geometries/Cube.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 3042,
-      "exportedPath": "api/rendering/geometries/cube.html",
-      "dependencies": []
-    },
-    "API/Rendering/Geometries/Cylinder.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 7293,
-      "exportedPath": "api/rendering/geometries/cylinder.html",
-      "dependencies": []
-    },
-    "API/Rendering/Geometries/Geometry3D.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 2756,
-      "exportedPath": "api/rendering/geometries/geometry3d.html",
-      "dependencies": []
-    },
-    "API/Rendering/Geometries/MergedGeometry.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 168,
-      "exportedPath": "api/rendering/geometries/mergedgeometry.html",
-      "dependencies": []
-    },
-    "API/Rendering/Geometries/Skybox.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 2533,
-      "exportedPath": "api/rendering/geometries/skybox.html",
-      "dependencies": []
-    },
-    "API/Rendering/Geometries/Sphere.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 4941,
-      "exportedPath": "api/rendering/geometries/sphere.html",
-      "dependencies": []
-    },
-    "API/Rendering/Geometries/Square.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 1874,
-      "exportedPath": "api/rendering/geometries/square.html",
-      "dependencies": []
-    },
-    "API/Rendering/Materials/PreDefinedMaterials/PhongMaterials.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 6813,
-      "exportedPath": "api/rendering/materials/predefinedmaterials/phongmaterials.html",
-      "dependencies": []
-    },
-    "API/Rendering/Materials/MonoColorMaterial.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 712,
-      "exportedPath": "api/rendering/materials/monocolormaterial.html",
-      "dependencies": []
-    },
-    "API/Rendering/Materials/PhongMaterial.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 1946,
-      "exportedPath": "api/rendering/materials/phongmaterial.html",
-      "dependencies": []
-    },
-    "API/Rendering/Materials/SkyboxMaterial.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 788,
-      "exportedPath": "api/rendering/materials/skyboxmaterial.html",
-      "dependencies": []
-    },
-    "API/Rendering/Materials/StandartMaterial.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 527,
-      "exportedPath": "api/rendering/materials/standartmaterial.html",
-      "dependencies": []
-    },
-    "API/Rendering/Materials/TextureMaterial.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 1030,
-      "exportedPath": "api/rendering/materials/texturematerial.html",
-      "dependencies": []
-    },
-    "API/Rendering/MeshClasses/BufferManager.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 7088,
-      "exportedPath": "api/rendering/meshclasses/buffermanager.html",
-      "dependencies": []
-    },
-    "API/Rendering/MeshClasses/InstancedMesh.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 2837,
-      "exportedPath": "api/rendering/meshclasses/instancedmesh.html",
-      "dependencies": []
-    },
-    "API/Rendering/MeshClasses/InstancedMeshShaders.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 3358,
-      "exportedPath": "api/rendering/meshclasses/instancedmeshshaders.html",
-      "dependencies": []
-    },
-    "API/Rendering/MeshClasses/Mesh.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 2743,
-      "exportedPath": "api/rendering/meshclasses/mesh.html",
-      "dependencies": []
-    },
-    "API/Rendering/Shaders/Compute/ComputeShader.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 4890,
-      "exportedPath": "api/rendering/shaders/compute/computeshader.html",
-      "dependencies": []
-    },
-    "API/Rendering/Shaders/Compute/ComputeShaderUnitManager.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 1963,
-      "exportedPath": "api/rendering/shaders/compute/computeshaderunitmanager.html",
-      "dependencies": []
-    },
-    "API/Rendering/Shaders/Geometry/Shader.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 759,
-      "exportedPath": "api/rendering/shaders/geometry/shader.html",
-      "dependencies": []
-    },
-    "API/Rendering/Shaders/Material.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 486,
-      "exportedPath": "api/rendering/shaders/material.html",
-      "dependencies": []
-    },
-    "API/Rendering/Shaders/Shader.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 4497,
-      "exportedPath": "api/rendering/shaders/shader.html",
-      "dependencies": []
-    },
-    "API/Rendering/Shaders/ShaderUniformManager.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 4710,
-      "exportedPath": "api/rendering/shaders/shaderuniformmanager.html",
-      "dependencies": []
-    },
-    "API/Rendering/Textures/Cubemap.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 5661,
-      "exportedPath": "api/rendering/textures/cubemap.html",
-      "dependencies": []
-    },
-    "API/Rendering/Textures/FBO.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 2975,
-      "exportedPath": "api/rendering/textures/fbo.html",
-      "dependencies": []
-    },
-    "API/Rendering/Textures/Texture.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 10826,
-      "exportedPath": "api/rendering/textures/texture.html",
-      "dependencies": []
-    },
-    "API/Rendering/Camera.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 3104,
-      "exportedPath": "api/rendering/camera.html",
-      "dependencies": []
-    },
-    "API/Rendering/Light.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 601,
-      "exportedPath": "api/rendering/light.html",
-      "dependencies": []
-    },
-    "API/Rendering/RenderScript.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 561,
-      "exportedPath": "api/rendering/renderscript.html",
-      "dependencies": []
-    },
-    "API/Rendering/Transform.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 1450,
-      "exportedPath": "api/rendering/transform.html",
-      "dependencies": []
-    },
-    "API/EveryFrameScript.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 614,
-      "exportedPath": "api/everyframescript.html",
-      "dependencies": []
-    },
-    "API/ResourceController.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 6120,
-      "exportedPath": "api/resourcecontroller.html",
-      "dependencies": []
-    },
-    "API/Resources.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 749,
-      "exportedPath": "api/resources.html",
-      "dependencies": []
-    },
-    "API/Scene.md": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 2590,
-      "exportedPath": "api/scene.html",
-      "dependencies": []
-    },
     "csToMD.ps1": {
-      "modifiedTime": 1748635770259,
-      "sourceSize": 572,
+      "modifiedTime": 1748635949977,
+      "sourceSize": 575,
       "exportedPath": "cstomd.ps1",
+      "dependencies": []
+    },
+    "API/Extensions/Matrix3Extensions.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 829,
+      "exportedPath": "api/extensions/matrix3extensions.cs.html",
+      "dependencies": []
+    },
+    "API/Extensions/VectorExtensions.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 3298,
+      "exportedPath": "api/extensions/vectorextensions.cs.html",
+      "dependencies": []
+    },
+    "API/JSON/LoadJsonFromFile.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 358,
+      "exportedPath": "api/json/loadjsonfromfile.cs.html",
+      "dependencies": []
+    },
+    "API/JSON/MCSDFJson.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 1724,
+      "exportedPath": "api/json/mcsdfjson.cs.html",
+      "dependencies": []
+    },
+    "API/Misc/EasingFunctions.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 4783,
+      "exportedPath": "api/misc/easingfunctions.cs.html",
+      "dependencies": []
+    },
+    "API/Misc/Logger.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 8591,
+      "exportedPath": "api/misc/logger.cs.html",
+      "dependencies": []
+    },
+    "API/Misc/MathMisc.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 865,
+      "exportedPath": "api/misc/mathmisc.cs.html",
+      "dependencies": []
+    },
+    "API/Misc/RenderMisc.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 1396,
+      "exportedPath": "api/misc/rendermisc.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Geometries/Cube.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 3042,
+      "exportedPath": "api/rendering/geometries/cube.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Geometries/Cylinder.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 7293,
+      "exportedPath": "api/rendering/geometries/cylinder.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Geometries/Geometry3D.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 2756,
+      "exportedPath": "api/rendering/geometries/geometry3d.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Geometries/MergedGeometry.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 168,
+      "exportedPath": "api/rendering/geometries/mergedgeometry.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Geometries/Skybox.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 2533,
+      "exportedPath": "api/rendering/geometries/skybox.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Geometries/Sphere.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 4941,
+      "exportedPath": "api/rendering/geometries/sphere.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Geometries/Square.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 1874,
+      "exportedPath": "api/rendering/geometries/square.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Materials/PreDefinedMaterials/PhongMaterials.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 6813,
+      "exportedPath": "api/rendering/materials/predefinedmaterials/phongmaterials.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Materials/MonoColorMaterial.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 712,
+      "exportedPath": "api/rendering/materials/monocolormaterial.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Materials/PhongMaterial.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 1946,
+      "exportedPath": "api/rendering/materials/phongmaterial.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Materials/SkyboxMaterial.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 788,
+      "exportedPath": "api/rendering/materials/skyboxmaterial.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Materials/StandartMaterial.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 527,
+      "exportedPath": "api/rendering/materials/standartmaterial.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Materials/TextureMaterial.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 1030,
+      "exportedPath": "api/rendering/materials/texturematerial.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/MeshClasses/BufferManager.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 7088,
+      "exportedPath": "api/rendering/meshclasses/buffermanager.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/MeshClasses/InstancedMesh.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 2837,
+      "exportedPath": "api/rendering/meshclasses/instancedmesh.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/MeshClasses/InstancedMeshShaders.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 3358,
+      "exportedPath": "api/rendering/meshclasses/instancedmeshshaders.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/MeshClasses/Mesh.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 2743,
+      "exportedPath": "api/rendering/meshclasses/mesh.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Shaders/Compute/ComputeShader.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 4890,
+      "exportedPath": "api/rendering/shaders/compute/computeshader.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Shaders/Compute/ComputeShaderUnitManager.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 1963,
+      "exportedPath": "api/rendering/shaders/compute/computeshaderunitmanager.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Shaders/Geometry/Shader.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 759,
+      "exportedPath": "api/rendering/shaders/geometry/shader.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Shaders/Material.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 486,
+      "exportedPath": "api/rendering/shaders/material.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Shaders/Shader.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 4497,
+      "exportedPath": "api/rendering/shaders/shader.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Shaders/ShaderUniformManager.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 4710,
+      "exportedPath": "api/rendering/shaders/shaderuniformmanager.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Textures/Cubemap.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 5661,
+      "exportedPath": "api/rendering/textures/cubemap.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Textures/FBO.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 2975,
+      "exportedPath": "api/rendering/textures/fbo.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Textures/Texture.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 10826,
+      "exportedPath": "api/rendering/textures/texture.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Camera.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 3104,
+      "exportedPath": "api/rendering/camera.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Light.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 601,
+      "exportedPath": "api/rendering/light.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/RenderScript.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 561,
+      "exportedPath": "api/rendering/renderscript.cs.html",
+      "dependencies": []
+    },
+    "API/Rendering/Transform.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 1450,
+      "exportedPath": "api/rendering/transform.cs.html",
+      "dependencies": []
+    },
+    "API/EveryFrameScript.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 614,
+      "exportedPath": "api/everyframescript.cs.html",
+      "dependencies": []
+    },
+    "API/ResourceController.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 6120,
+      "exportedPath": "api/resourcecontroller.cs.html",
+      "dependencies": []
+    },
+    "API/Resources.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 749,
+      "exportedPath": "api/resources.cs.html",
+      "dependencies": []
+    },
+    "API/Scene.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 2590,
+      "exportedPath": "api/scene.cs.html",
+      "dependencies": []
+    },
+    "Program.cs.md": {
+      "modifiedTime": 1748635949977,
+      "sourceSize": 975,
+      "exportedPath": "program.cs.html",
       "dependencies": []
     }
   }

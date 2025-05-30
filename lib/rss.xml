@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 30 May 2025 20:05:33 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 30 May 2025 20:05:30 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Matrix3Extensions]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 30 May 2025 20:09:33 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 30 May 2025 20:09:30 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Matrix3Extensions]]></title><description><![CDATA[ 
  <br>using OpenTK.Mathematics;
 
 namespace OpenglTestConsole.Classes.API.Extensions
@@ -3695,4 +3695,35 @@ namespace OpenglTestConsole.Classes.API
     }
 }
 ]]></description><link>api\scene.html</link><guid isPermaLink="false">API/Scene.md</guid><pubDate>Fri, 30 May 2025 20:05:33 GMT</pubDate></item><item><title><![CDATA[Program]]></title><description><![CDATA[ 
- ]]></description><link>program.html</link><guid isPermaLink="false">Program.md</guid><pubDate>Mon, 26 May 2025 10:30:54 GMT</pubDate></item></channel></rss>
+ <br>global using OpenTK.Graphics.OpenGL;
+using OpenglTestConsole.Classes;
+using OpenglTestConsole.Classes.API.Misc;
+using OpenglTestConsole.Classes.Implementations.Classes;
+using OpenTK.Windowing.Desktop;
+
+namespace OpenglTestConsole
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            Logger.Log($"Started app with arguments:\n{string.Concat(args)}", LogLevel.Info);
+
+            Settings.Fov = 90f;
+
+            GameWindowSettings gameWindowSettings = GameWindowSettings.Default;
+            NativeWindowSettings nativeWindowSettings = new NativeWindowSettings
+            {
+                ClientSize = Settings.Resolution,
+                Title = "OpenGL Test Console",
+                DepthBits = 24,
+            };
+
+            gameWindowSettings.UpdateFrequency = 60;
+
+            Main main = new Main(gameWindowSettings, nativeWindowSettings);
+            main.Run();
+        }
+    }
+}
+]]></description><link>program.html</link><guid isPermaLink="false">Program.md</guid><pubDate>Fri, 30 May 2025 20:09:19 GMT</pubDate></item></channel></rss>
